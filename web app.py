@@ -7,6 +7,8 @@ import openai
 import gradio as gr
 import os
 from sklearn.neighbors import NearestNeighbors
+from sentence_transformers import SentenceTransformer, util
+import torch
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
@@ -58,37 +60,35 @@ class SemanticSearch:
         self.fitted = False
 
     def encode(self, chunk):
-        embeddings = model.encode(chunk)
+        embeddings = model.encode(chunk, convert_to_tensor=True)
         return embeddings
 
     # applico il nearest neighbors sull'embedding del pdf
     def fit(self, data, batch=1000, n_neighbors=5):
         self.data = data  # salvo i chunks del pdf in data
-        self.embeddings = self.get_text_embedding(data, batch=batch)  # qui creo gli embedding
-        n_neighbors = min(n_neighbors, len(self.embeddings))
-        self.nn = NearestNeighbors(n_neighbors=n_neighbors)
-        self.nn.fit(self.embeddings)
+        self.corpus_embeddings = self.get_text_embedding(data, batch=batch)  # qui creo gli embedding
         self.fitted = True
 
     def fit2(self, data, embeddings_file, n_neighbors=5):
         self.data = data  # salvo i chunks del pdf in data
-        self.embeddings = np.load(embeddings_file)  # qui creo gli embedding
-        n_neighbors = min(n_neighbors, len(self.embeddings))
-        self.nn = NearestNeighbors(n_neighbors=n_neighbors)
-        self.nn.fit(self.embeddings)
+        self.dim_corpus = len(data)
+        self.corpus_embeddings = np.load(embeddings_file)  # qui creo gli embedding
         self.fitted = True
 
     # quando la classe viene usata come metodo, usufruendo del nn, confronto l'embedding della domanda all'embedding del pdf
     def __call__(self, text): # text è la domanda input dell'utente
-        embeddings = self.encode([text]) # universal-sentence-encoder applicato alla domanda
-        neighbors = self.nn.kneighbors(embeddings, return_distance=False)[0] # chiamo il nearest_neighbors già fittato sulla domanda, restituisce i vicini i.e. [33 5 21 14 25]
-        return [self.data[i] for i in neighbors]
+        top_k = min(5, self.dim_corpus)
+        domanda_embeddings = self.encode([text]) # embedding applicato alla domanda
+        cos_scores = util.cos_sim(domanda_embeddings, self.corpus_embeddings)[0]
+        top_results = torch.topk(cos_scores, k=top_k)
+        return [self.data[i] for i in top_results[1]]
 
     # questa è la classe che fa l'embedding sul contenuto del pdf
     def get_text_embedding(self, texts, batch=1000):
         embeddings = []
         print("text len : ")
         print(len(texts))
+        self.dim_corpus = len(texts)
 
         for i in range(0, len(texts), batch):
             text_batch = texts[i:(i + batch)]
@@ -102,7 +102,7 @@ class SemanticSearch:
 def load_recommender(path, start_page=1):
     global recommender
     pdf_file = os.path.basename(path)
-    embeddings_file = f"{pdf_file}_{start_page}.npy"
+    embeddings_file = f"docs\{pdf_file}_{start_page}.npy"
 
     texts = pdf_to_text(path, start_page=start_page)
     chunks = text_to_chunks(texts, start_page=start_page)
@@ -112,7 +112,7 @@ def load_recommender(path, start_page=1):
         recommender.fit2(chunks, embeddings_file)
         return "Embeddings loaded from file"
     recommender.fit(chunks)
-    np.save(embeddings_file, recommender.embeddings)
+    np.save(embeddings_file, recommender.corpus_embeddings)
     return 'Corpus Loaded.'
 
 def generate_text(openAI_key, prompt, engine="text-davinci-003"):
