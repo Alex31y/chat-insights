@@ -202,7 +202,7 @@ def question_answer(url, file, question, openAI_key):
 
 recommender = SemanticSearch()
 
-key = "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"
+key = ""
 domanda = "quando scade la candidatura per partecipare al bando?"
 file_object = open('domande.txt', 'a')
 file_object.write('\n')

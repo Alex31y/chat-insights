@@ -191,7 +191,7 @@ def question_answer(url, file, question, openAI_key):
 
 recommender = SemanticSearch()
 
-key = "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"
+key = ""
 domanda = "quanti sono i principi fondamentali della costituzione ?"
 file_object = open('docs\domande.txt', 'a')
 file_object.write('\n')
