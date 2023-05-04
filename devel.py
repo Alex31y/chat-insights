@@ -75,7 +75,7 @@ class SemanticSearch:
         self.corpus_embeddings = np.load(embeddings_file)  # qui creo gli embedding
         self.fitted = True
 
-    # quando la classe viene usata come metodo, usufruendo del nn, confronto l'embedding della domanda all'embedding del pdf
+    # quando la classe viene usata come metodo, calcolo la cosine similarity tra gli embeddings della domanda ed il pdf
     def __call__(self, text): # text è la domanda input dell'utente
         top_k = min(5, self.dim_corpus)
         domanda_embeddings = self.encode([text]) # embedding applicato alla domanda
