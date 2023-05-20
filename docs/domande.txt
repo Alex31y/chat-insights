@@ -1049,3 +1049,143 @@ Instructions: Compose a comprehensive reply to the query using the search result
 Query: {question}
 Answer: Query: what are the capgemini's objectives
 Answer:
+
+
+prompt:
+search results:
+
+[7] "i dottorandi che svolgeranno la mobilità in un Programme Country, UK o Svizzera la possibilità di scegliere se effettuare mobilità lunghe (2 – 12 mesi) o brevi (5-30 gg). Nel caso di mobilità breve il contributo sarà di € 70 al giorno per periodi da 5 a 14 giorni e €50 al giorno per periodi da 15 a 30 giorni. Per le mobilità svolte dai dottorandi nei Partner Countries questa modalità di mobilità breve non è consentita. Sono previsti finanziamenti a favore di studenti con esigenze speciali relative a condizioni fisiche, mentali o sanitarie stanziati dall’Unione Europea. La disponibilità dei"
+
+[5] "ecc.). In base a questa data di partenza l’Ufficio Relazioni Internazionali- Erasmus provvede ad inviare i nominativi degli studenti selezionati (“nominations”) alle Università estere. La data inserita potrà essere modificata solo se l’Università ospitante comunica allo studente una data diversa da quella inizialmente indicata dallo studente. Tuttavia chi ha optato per il secondo semestre NON può successivamente anticipare al primo semestre e chi parte nel secondo semestre non può rimanere per periodi superiori a 6 mesi e comunque deve rientrare entro il 30 settembre 2023. Gli studenti in graduatoria con lo status di “idoneo” potranno essere contattati dall’Ufficio Relazioni Internazionali"
+
+[6] "del tutor interno, si può procedere alla firma del contratto di mobilità. Possono essere aggiunti due giorni per il viaggio di andata e due giorni per il viaggio di ritorno, i giorni aumentano a 4 se green (con mezzi di trasporto sostenibili, es. treno. Vedere art.19). Gli studenti che non avranno sottoscritto il contratto di mobilità entro i 30 giorni successivi alla data indicata al momento dell’accettazione della mobilità, e che non hanno richiesto un cambio della data di mobilità entro quel termine, verranno d’ufficio dichiarati rinunciatari. Art. 17 Modalità e documenti per la stipula del contratto Orientativamente il contratto"
+
+[6] "deve essere formalizzato entro fine luglio per chi parte nel primo semestre ed entro fine novembre per chi parte nel secondo semestre. Al fine di formalizzare il contratto è necessario assicurarsi che su ESSE3 siano correttamente caricati: 1 il documento di riconoscimento in corso di validità, 2 la fotocopia della tessera sanitaria 3 il codice IBAN relativo al conto corrente postale/bancario o alla carta prepagata di cui lo studente è intestatario o cointestatario, assicurandosi che non abbia limiti all’accredito; 4 il Learning Agreement approvato dal tutor interno in ESSE3. Prima della firma del contratto è necessario chiedere il cambio data"
+
+[9] "di mobilità per ricerca tesi il Transcript of Records potrà essere sostituito da un certificato attestante lo svolgimento dell’attività di ricerca; c) Breve relazione (max due pagine sull’esperienza di mobilità). Qualora la copertura finanziaria non fosse disponibile del tutto o in parte, sarà comunque possibile svolgere la mobilità assegnata sostenendo autonomamente le spese. Si precisa che, in caso di insufficienza dei fondi il numero di mensilità coperte dal contributo Paese potrà essere ridotto proporzionalmente. Art. 26 Obblighi didattici e amministrativi dello studente della mobilità Gli studenti in mobilità NON possono seguire corsi e sostenere esami presso l’Università di Salerno e"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: dscd
+Answer:
+
+
+prompt:
+search results:
+
+[4] "minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio in base al voto di laurea: fino a 100/110 = 30 punti; da 101 a 110 = 30 punti più un punto per ogni voto superiore al 100 (es. 104 = 34 punti). Ai laureati con lode saranno attribuiti 42 punti; d) voto di laurea specialistica/magistrale per gli studenti iscritti"
+
+[6] "del tutor interno, si può procedere alla firma del contratto di mobilità. Possono essere aggiunti due giorni per il viaggio di andata e due giorni per il viaggio di ritorno, i giorni aumentano a 4 se green (con mezzi di trasporto sostenibili, es. treno. Vedere art.19). Gli studenti che non avranno sottoscritto il contratto di mobilità entro i 30 giorni successivi alla data indicata al momento dell’accettazione della mobilità, e che non hanno richiesto un cambio della data di mobilità entro quel termine, verranno d’ufficio dichiarati rinunciatari. Art. 17 Modalità e documenti per la stipula del contratto Orientativamente il contratto"
+
+[8] "di coloro che alla data di stipula del contratto avranno presente in Esse3 l’ISEE relativo all’anno di emanazione del bando. Per i contratti del primo semestre o annuali l’ISEE del 2023 dovrà essere disponibile entro il 1 giugno 2023. L’importo della prima rata, moltiplicato per i mesi di permanenza stabiliti nel contratto di mobilità, sarà attribuito allo studente entro 60 giorni dalla data della firma del contratto di mobilità. La seconda rata si compone del 50%, se spettante, del restante contributo MUR e dell’eventuale contributo premiale UNISA. Entrambi saranno erogati entro 60 giorni dal riconoscimento dei crediti e previa compilazione"
+
+[7] "i dottorandi che svolgeranno la mobilità in un Programme Country, UK o Svizzera la possibilità di scegliere se effettuare mobilità lunghe (2 – 12 mesi) o brevi (5-30 gg). Nel caso di mobilità breve il contributo sarà di € 70 al giorno per periodi da 5 a 14 giorni e €50 al giorno per periodi da 15 a 30 giorni. Per le mobilità svolte dai dottorandi nei Partner Countries questa modalità di mobilità breve non è consentita. Sono previsti finanziamenti a favore di studenti con esigenze speciali relative a condizioni fisiche, mentali o sanitarie stanziati dall’Unione Europea. La disponibilità dei"
+
+[4] "a corsi di dottorato. Si procederà ad assegnare un punteggio in base al voto di laurea così come di seguito specificato: fino a 100/110 = 60 punti; da 101 a 110 = 60 punti + un punto per ogni voto superiore al 100 (es. 104 = 64 punti); per i laureati con lode saranno assegnati 72 punti. e) colloquio obbligatorio. Al colloquio è assegnato un punteggio da 0 a 40 punti, di cui 1-5 punti potranno essere attribuiti per certificazioni linguistiche rilevanti ai fini della mobilità. Saranno utilmente collocati in graduatoria i partecipanti che riporteranno un punteggio almeno pari a"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: sperma di toro
+Answer:
+
+
+prompt:
+search results:
+
+[4] "minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio in base al voto di laurea: fino a 100/110 = 30 punti; da 101 a 110 = 30 punti più un punto per ogni voto superiore al 100 (es. 104 = 34 punti). Ai laureati con lode saranno attribuiti 42 punti; d) voto di laurea specialistica/magistrale per gli studenti iscritti"
+
+[6] "del tutor interno, si può procedere alla firma del contratto di mobilità. Possono essere aggiunti due giorni per il viaggio di andata e due giorni per il viaggio di ritorno, i giorni aumentano a 4 se green (con mezzi di trasporto sostenibili, es. treno. Vedere art.19). Gli studenti che non avranno sottoscritto il contratto di mobilità entro i 30 giorni successivi alla data indicata al momento dell’accettazione della mobilità, e che non hanno richiesto un cambio della data di mobilità entro quel termine, verranno d’ufficio dichiarati rinunciatari. Art. 17 Modalità e documenti per la stipula del contratto Orientativamente il contratto"
+
+[8] "di coloro che alla data di stipula del contratto avranno presente in Esse3 l’ISEE relativo all’anno di emanazione del bando. Per i contratti del primo semestre o annuali l’ISEE del 2023 dovrà essere disponibile entro il 1 giugno 2023. L’importo della prima rata, moltiplicato per i mesi di permanenza stabiliti nel contratto di mobilità, sarà attribuito allo studente entro 60 giorni dalla data della firma del contratto di mobilità. La seconda rata si compone del 50%, se spettante, del restante contributo MUR e dell’eventuale contributo premiale UNISA. Entrambi saranno erogati entro 60 giorni dal riconoscimento dei crediti e previa compilazione"
+
+[7] "i dottorandi che svolgeranno la mobilità in un Programme Country, UK o Svizzera la possibilità di scegliere se effettuare mobilità lunghe (2 – 12 mesi) o brevi (5-30 gg). Nel caso di mobilità breve il contributo sarà di € 70 al giorno per periodi da 5 a 14 giorni e €50 al giorno per periodi da 15 a 30 giorni. Per le mobilità svolte dai dottorandi nei Partner Countries questa modalità di mobilità breve non è consentita. Sono previsti finanziamenti a favore di studenti con esigenze speciali relative a condizioni fisiche, mentali o sanitarie stanziati dall’Unione Europea. La disponibilità dei"
+
+[4] "a corsi di dottorato. Si procederà ad assegnare un punteggio in base al voto di laurea così come di seguito specificato: fino a 100/110 = 60 punti; da 101 a 110 = 60 punti + un punto per ogni voto superiore al 100 (es. 104 = 64 punti); per i laureati con lode saranno assegnati 72 punti. e) colloquio obbligatorio. Al colloquio è assegnato un punteggio da 0 a 40 punti, di cui 1-5 punti potranno essere attribuiti per certificazioni linguistiche rilevanti ai fini della mobilità. Saranno utilmente collocati in graduatoria i partecipanti che riporteranno un punteggio almeno pari a"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: sperma di toro
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di Ingegneria edile-architettura, di Scienze della formazione primaria nel caso in cui concorrano alla selezione unitamente agli studenti iscritti a corsi di laurea magistrale di II ciclo. Art. 9 Incompatibilità Sono incompatibili con il Programma di mobilità gli studenti che abbiano già beneficiato di mobilità, qualora i mesi residui siano inferiori"
+
+[5] "della partenza È fatto obbligo allo studente selezionato per la mobilità di rispettare rigorosamente le scadenze per la trasmissione all’Università ospitante dei seguenti documenti che possono essere richiesti: - Application Form; - Accommodation Form (laddove c’è disponibilità di alloggio); - Learning Agreement; - eventuale registrazione ai corsi; - eventuale certificato con gli esami sostenuti (Transcript of Records); - eventuale certificazione di conoscenza linguistica. Si segnala che il mancato rispetto delle scadenze, l’inadeguatezza dei requisiti linguistici o la eventuale incompatibilità dei programmi di studio potrebbero indurre l’Istituzione ospitante a non accettare lo studente. Qualora il Ministero degli Affari Esteri e della"
+
+[3] "2023 Art. 8 Criteri di selezione La selezione degli studenti è effettuata dalla Commissione Mobilità Internazionale del Consiglio Didattico di appartenenza dello studente. I criteri di selezione sono di seguito riportati: a) Numero di esami sostenuti entro la data di scadenza del bando; b) merito accademico: media ponderata; La media ponderata viene calcolata moltiplicando ogni voto per il numero di crediti dell'esame corrispondente. Tutti i valori così ottenuti sono sommati e alla fine divisi per il numero complessivo di crediti maturati sulle attività con voto. Ai fini della selezione si applicheranno i criteri di arrotondamento: le cifre dopo la virgola"
+
+[2] "richiamano inoltre le responsabilità penali legate al rilascio di dichiarazioni mendaci (Codice penale e leggi speciali in materia, ai sensi e per gli effetti dell'art. 76 D.P.R. n. 445/2000). Art. 5 Scegliere l’Istituzione ospitante L’elenco delle destinazioni e dei tutor interni per i diversi accordi di mobilità con le Università straniere è allegato al bando. Le Università straniere di Programme e Partner countries definiscono le SCADENZE per: - Nomination (candidatura, ovvero ricezione dei nominativi) di coloro che effettueranno la mobilità Erasmus+ presso la propria Università. - Application (domanda di ammissione) di coloro che sono stati nominati. Questo processo è curato"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore 15:00 Pubblicazione graduatorie: 24 febbraio 2023 Ricorso alla Commissione Mobilità Internazionale: 27 febbraio 2023 Accettazione mobilità: 25–28 febbraio 2023 Giornata informativa virtuale: 14 marzo 2023. Presentazione del Learning Agreement (1° semestre): dal 27 marzo al 31 luglio 2023 Presentazione del Learning Agreement (2° semestre): dal 1 settembre al 30 novembre"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: scadenza
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di Ingegneria edile-architettura, di Scienze della formazione primaria nel caso in cui concorrano alla selezione unitamente agli studenti iscritti a corsi di laurea magistrale di II ciclo. Art. 9 Incompatibilità Sono incompatibili con il Programma di mobilità gli studenti che abbiano già beneficiato di mobilità, qualora i mesi residui siano inferiori"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore 15:00 Pubblicazione graduatorie: 24 febbraio 2023 Ricorso alla Commissione Mobilità Internazionale: 27 febbraio 2023 Accettazione mobilità: 25–28 febbraio 2023 Giornata informativa virtuale: 14 marzo 2023. Presentazione del Learning Agreement (1° semestre): dal 27 marzo al 31 luglio 2023 Presentazione del Learning Agreement (2° semestre): dal 1 settembre al 30 novembre"
+
+[3] "online di posizionamento che si terrà il 17 febbraio alle ore 15. I corsi avranno inizio a partire dal 1° marzo 2023 per gli studenti in partenza nel primo semestre. Gli studenti in partenza nel secondo semestre verranno riconvocati successivamente. Art. 6 Candidatura La candidatura, la cui scadenza è fissata per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[2] "la partecipazione al bando è essenziale il possesso dei requisiti linguistici richiesti dall’Istituzione ospitante. Coloro che intendono laurearsi nella sessione straordinaria a.a. 2022/2023 dovranno aver concluso la mobilità entro il conseguimento della laurea. In caso di mancato conseguimento del titolo di laurea entro la sessione straordinaria a.a.2022/2023, sarà necessario formalizzare l’iscrizione all’a.a.2023/2024. N.B. È responsabilità di ogni candidato verificare il numero di mensilità Erasmus ancora disponibili per il ciclo di studi di riferimento, ai fini della candidatura al presente bando. In caso di falsa dichiarazione, la mobilità potrà essere annullata prevedendo la restituzione dei contributi erogati. A tal proposito si"
+
+[2] "richiamano inoltre le responsabilità penali legate al rilascio di dichiarazioni mendaci (Codice penale e leggi speciali in materia, ai sensi e per gli effetti dell'art. 76 D.P.R. n. 445/2000). Art. 5 Scegliere l’Istituzione ospitante L’elenco delle destinazioni e dei tutor interni per i diversi accordi di mobilità con le Università straniere è allegato al bando. Le Università straniere di Programme e Partner countries definiscono le SCADENZE per: - Nomination (candidatura, ovvero ricezione dei nominativi) di coloro che effettueranno la mobilità Erasmus+ presso la propria Università. - Application (domanda di ammissione) di coloro che sono stati nominati. Questo processo è curato"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: scadenza del bando
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di Ingegneria edile-architettura, di Scienze della formazione primaria nel caso in cui concorrano alla selezione unitamente agli studenti iscritti a corsi di laurea magistrale di II ciclo. Art. 9 Incompatibilità Sono incompatibili con il Programma di mobilità gli studenti che abbiano già beneficiato di mobilità, qualora i mesi residui siano inferiori"
+
+[5] "della partenza È fatto obbligo allo studente selezionato per la mobilità di rispettare rigorosamente le scadenze per la trasmissione all’Università ospitante dei seguenti documenti che possono essere richiesti: - Application Form; - Accommodation Form (laddove c’è disponibilità di alloggio); - Learning Agreement; - eventuale registrazione ai corsi; - eventuale certificato con gli esami sostenuti (Transcript of Records); - eventuale certificazione di conoscenza linguistica. Si segnala che il mancato rispetto delle scadenze, l’inadeguatezza dei requisiti linguistici o la eventuale incompatibilità dei programmi di studio potrebbero indurre l’Istituzione ospitante a non accettare lo studente. Qualora il Ministero degli Affari Esteri e della"
+
+[3] "2023 Art. 8 Criteri di selezione La selezione degli studenti è effettuata dalla Commissione Mobilità Internazionale del Consiglio Didattico di appartenenza dello studente. I criteri di selezione sono di seguito riportati: a) Numero di esami sostenuti entro la data di scadenza del bando; b) merito accademico: media ponderata; La media ponderata viene calcolata moltiplicando ogni voto per il numero di crediti dell'esame corrispondente. Tutti i valori così ottenuti sono sommati e alla fine divisi per il numero complessivo di crediti maturati sulle attività con voto. Ai fini della selezione si applicheranno i criteri di arrotondamento: le cifre dopo la virgola"
+
+[2] "richiamano inoltre le responsabilità penali legate al rilascio di dichiarazioni mendaci (Codice penale e leggi speciali in materia, ai sensi e per gli effetti dell'art. 76 D.P.R. n. 445/2000). Art. 5 Scegliere l’Istituzione ospitante L’elenco delle destinazioni e dei tutor interni per i diversi accordi di mobilità con le Università straniere è allegato al bando. Le Università straniere di Programme e Partner countries definiscono le SCADENZE per: - Nomination (candidatura, ovvero ricezione dei nominativi) di coloro che effettueranno la mobilità Erasmus+ presso la propria Università. - Application (domanda di ammissione) di coloro che sono stati nominati. Questo processo è curato"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore 15:00 Pubblicazione graduatorie: 24 febbraio 2023 Ricorso alla Commissione Mobilità Internazionale: 27 febbraio 2023 Accettazione mobilità: 25–28 febbraio 2023 Giornata informativa virtuale: 14 marzo 2023. Presentazione del Learning Agreement (1° semestre): dal 27 marzo al 31 luglio 2023 Presentazione del Learning Agreement (2° semestre): dal 1 settembre al 30 novembre"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: scadenza
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di Ingegneria edile-architettura, di Scienze della formazione primaria nel caso in cui concorrano alla selezione unitamente agli studenti iscritti a corsi di laurea magistrale di II ciclo. Art. 9 Incompatibilità Sono incompatibili con il Programma di mobilità gli studenti che abbiano già beneficiato di mobilità, qualora i mesi residui siano inferiori"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore 15:00 Pubblicazione graduatorie: 24 febbraio 2023 Ricorso alla Commissione Mobilità Internazionale: 27 febbraio 2023 Accettazione mobilità: 25–28 febbraio 2023 Giornata informativa virtuale: 14 marzo 2023. Presentazione del Learning Agreement (1° semestre): dal 27 marzo al 31 luglio 2023 Presentazione del Learning Agreement (2° semestre): dal 1 settembre al 30 novembre"
+
+[3] "online di posizionamento che si terrà il 17 febbraio alle ore 15. I corsi avranno inizio a partire dal 1° marzo 2023 per gli studenti in partenza nel primo semestre. Gli studenti in partenza nel secondo semestre verranno riconvocati successivamente. Art. 6 Candidatura La candidatura, la cui scadenza è fissata per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[2] "la partecipazione al bando è essenziale il possesso dei requisiti linguistici richiesti dall’Istituzione ospitante. Coloro che intendono laurearsi nella sessione straordinaria a.a. 2022/2023 dovranno aver concluso la mobilità entro il conseguimento della laurea. In caso di mancato conseguimento del titolo di laurea entro la sessione straordinaria a.a.2022/2023, sarà necessario formalizzare l’iscrizione all’a.a.2023/2024. N.B. È responsabilità di ogni candidato verificare il numero di mensilità Erasmus ancora disponibili per il ciclo di studi di riferimento, ai fini della candidatura al presente bando. In caso di falsa dichiarazione, la mobilità potrà essere annullata prevedendo la restituzione dei contributi erogati. A tal proposito si"
+
+[2] "richiamano inoltre le responsabilità penali legate al rilascio di dichiarazioni mendaci (Codice penale e leggi speciali in materia, ai sensi e per gli effetti dell'art. 76 D.P.R. n. 445/2000). Art. 5 Scegliere l’Istituzione ospitante L’elenco delle destinazioni e dei tutor interni per i diversi accordi di mobilità con le Università straniere è allegato al bando. Le Università straniere di Programme e Partner countries definiscono le SCADENZE per: - Nomination (candidatura, ovvero ricezione dei nominativi) di coloro che effettueranno la mobilità Erasmus+ presso la propria Università. - Application (domanda di ammissione) di coloro che sono stati nominati. Questo processo è curato"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: scadenza del bando
+Answer:

@@ -9,13 +9,17 @@ import os
 from sklearn.neighbors import NearestNeighbors
 from sentence_transformers import SentenceTransformer, util
 import torch
+import shutil
 
 """Importo il modello per l'embedding del testo
 https://www.sbert.net/
 """
 #più piccolo è il chunk meno token vengono utilizzati nel fare la domanda
-chunk_size = 100
-model = SentenceTransformer('sentence-transformers/multi-qa-MiniLM-L6-cos-v1')
+#configurazione per singolo file: chunk_size = 150 n_chunks = 5 tokens = 750
+chunk_size = 70
+n_chunks = 10
+#model = SentenceTransformer('sentence-transformers/multi-qa-MiniLM-L6-cos-v1')
+model = SentenceTransformer("bert model")
 
 """Metodi per la manipolazione del testo; conversione da pdf a text"""
 
@@ -28,20 +32,36 @@ def preprocess(text):
     return text
 
 def pdf_to_text(path, start_page=1, end_page=None):
-    doc = fitz.open(path)
-    total_pages = doc.page_count
+    if isinstance(path, list):
+        total_pages = 0
+        text_list = []
+        for file in path:
+            doc = fitz.open(file)
+            total_pages = total_pages + doc.page_count
+            file_pages = doc.page_count
+            #print("pagine nel file: ")
+            #print(file_pages)
+            for i in range(start_page - 1, file_pages):
+                #print(i)
+                text = doc.load_page(i).get_text("text")
+                text = preprocess(text)
+                text_list.append(text)
+            doc.close()
+    else:
+        doc = fitz.open(path)
+        total_pages = doc.page_count
 
-    if end_page is None:
-        end_page = total_pages
+        if end_page is None:
+            end_page = total_pages
 
-    text_list = []
+        text_list = []
 
-    for i in range(start_page - 1, end_page):
-        text = doc.load_page(i).get_text("text")
-        text = preprocess(text)
-        text_list.append(text)
+        for i in range(start_page - 1, end_page):
+            text = doc.load_page(i).get_text("text")
+            text = preprocess(text)
+            text_list.append(text)
 
-    doc.close()
+        doc.close()
     return text_list
 
 def text_to_chunks(texts, word_length=chunk_size, start_page=1):
@@ -86,7 +106,7 @@ class SemanticSearch:
 
     # restituisco i top n chunks più simili alla domanda
     def __call__(self, text): # text è la domanda input dell'utente
-        top_k = min(5, self.dim_corpus)
+        top_k = min(n_chunks, self.dim_corpus)
         domanda_embeddings = self.encode([text]) # embedding applicato alla domanda
         cos_scores = util.cos_sim(domanda_embeddings, self.corpus_embeddings)[0]
         top_results = torch.topk(cos_scores, k=top_k)
@@ -113,11 +133,14 @@ class SemanticSearch:
 def load_recommender(path, flagUrl):
     start_page = 1
     global recommender
-    if(flagUrl):
+    if len(path) > 1:
+        embeddings_file = f"docs\multiFileEmbeddings.npy"
+    elif(flagUrl):
         pdf_file = os.path.basename(path)
     else:
+        path = path[0]
         pdf_file = os.path.basename(path.name)
-    embeddings_file = f"docs\{pdf_file}_{start_page}.npy"
+        embeddings_file = f"docs\{pdf_file}_{start_page}.npy"
 
     texts = pdf_to_text(path, start_page=start_page)
     chunks = text_to_chunks(texts, start_page=start_page)
@@ -159,7 +182,7 @@ def generate_text2(openAI_key, prompt, engine="gpt-3.5-turbo-0301"):
     message = response.choices[0].message['content']
     return message
 
-# 2
+# per il debug vai qui
 def generate_answer(question, openAI_key):
     # genero i chunks
     topn_chunks = recommender(question) # metodo __call__ : confronto l'embedding della domanda all'embedding del pdf ed ottengo gli n snippet di testo più vicini
@@ -169,7 +192,7 @@ def generate_answer(question, openAI_key):
         prompt += c + '\n\n'
 
     prompt += "Instructions: Compose a comprehensive reply to the query using the search results given. " \
-              "If the search results mention multiple subjects with the same name, create separate answers for each" \
+              "If the search results mention multiple subjects with the same name, create separate answers for each. " \
               "Only include information found in the results and don't add any additional information. " \
               "Make sure the answer is correct and don't output false content. " \
               "If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'." \
@@ -178,12 +201,13 @@ def generate_answer(question, openAI_key):
 
     prompt += f"Query: {question}\nAnswer:"
 
-
+    """
     file_object = open('docs\domande.txt', 'a')
     file_object.write('\n\n\nprompt:\n')
     file_object.write(prompt)
     # Close the file
     file_object.close()
+    """
 
     answer = generate_text(openAI_key, prompt, "text-davinci-003")
     #answer = prompt
@@ -204,10 +228,30 @@ def question_answer(url, file, question, openAI_key):
 
     return generate_answer(question, openAI_key)
 
-"""GUI"""
+def cleanup():
+    embeddings_file = f"docs\multiFileEmbeddings.npy"
+    if os.path.isfile(embeddings_file):
+        os.remove(embeddings_file)
+
+    # WINDOWS
+    directory = "C:\\Users\\xlits\\AppData\\Local\\Temp"  # Replace with the target directory
+
+    # List all directories in the specified directory
+    for root, dirs, files in os.walk(directory):
+        for dir_name in dirs:
+            if dir_name.startswith("tmp"):
+                folder_path = os.path.join(root, dir_name)
+                try:
+                    # Delete the folder and its contents
+                    shutil.rmtree(folder_path)
+                    print(f"Folder '{folder_path}' deleted successfully.")
+                except OSError as e:
+                    print(f"Failed to delete folder '{folder_path}': {e}")
+
+
 
 recommender = SemanticSearch()
-
+cleanup()
 title = 'Chat Insights'
 description = """Team Namec spacca."""
 
@@ -222,7 +266,7 @@ with gr.Blocks(theme='freddyaboulton/dracula_revamped') as demo:
             openAI_key = gr.Textbox(label='Enter your OpenAI API key here')
             url = gr.Textbox(label='Enter PDF URL here')
             gr.Markdown("<center><h4>OR<h4></center>")
-            file = gr.File(label='Upload your PDF', file_types=['.pdf'])
+            file = gr.File(label='Upload your PDF', file_types=['.pdf'], file_count="multiple")
             question = gr.Textbox(label='Enter your question here')
             btn = gr.Button(value='Submit')
             btn.style(full_width=True)
@@ -231,5 +275,4 @@ with gr.Blocks(theme='freddyaboulton/dracula_revamped') as demo:
             answer = gr.Textbox(label='The answer to your question is :')
 
         btn.click(question_answer, inputs=[url, file, question, openAI_key], outputs=[answer])
-# openai.api_key = os.getenv('Your_Key_Here')
 demo.launch(debug=True)
