@@ -10,7 +10,14 @@ from sklearn.neighbors import NearestNeighbors
 from sentence_transformers import SentenceTransformer, util
 import torch
 
-model = SentenceTransformer('all-MiniLM-L6-v2')
+"""Importo il modello per l'embedding del testo
+https://www.sbert.net/
+"""
+#più piccolo è il chunk meno token vengono utilizzati nel fare la domanda
+chunk_size = 150
+model = SentenceTransformer('sentence-transformers/multi-qa-MiniLM-L6-cos-v1')
+
+"""Metodi per la manipolazione del testo; conversione da pdf a text"""
 
 def download_pdf(url, output_path):
     urllib.request.urlretrieve(url, output_path)
@@ -37,7 +44,7 @@ def pdf_to_text(path, start_page=1, end_page=None):
     doc.close()
     return text_list
 
-def text_to_chunks(texts, word_length=150, start_page=1):
+def text_to_chunks(texts, word_length=chunk_size, start_page=1):
     text_toks = [t.split(' ') for t in texts]
     page_nums = []
     chunks = []
@@ -53,6 +60,8 @@ def text_to_chunks(texts, word_length=150, start_page=1):
             chunk = f'[{idx + start_page}]' + ' ' + '"' + chunk + '"'
             chunks.append(chunk)
     return chunks
+
+"""La classe SemanticSearch è l'attore che andrà a generare l'embedding e calcolare i chunk di testo più vicini alla domanda dell'utente"""
 
 class SemanticSearch:
 
@@ -75,7 +84,7 @@ class SemanticSearch:
         self.corpus_embeddings = np.load(embeddings_file)  # qui creo gli embedding
         self.fitted = True
 
-    # quando la classe viene usata come metodo, usufruendo del nn, confronto l'embedding della domanda all'embedding del pdf
+    # restituisco i top n chunks più simili alla domanda
     def __call__(self, text): # text è la domanda input dell'utente
         top_k = min(5, self.dim_corpus)
         domanda_embeddings = self.encode([text]) # embedding applicato alla domanda
@@ -84,24 +93,30 @@ class SemanticSearch:
         return [self.data[i] for i in top_results[1]]
 
     # questa è la classe che fa l'embedding sul contenuto del pdf
-    def get_text_embedding(self, texts, batch=1000):
+    def get_text_embedding(self, texts, batch):
         embeddings = []
-        print("text len : ")
+        print("Numero di chunks nel documento: ")
         print(len(texts))
         self.dim_corpus = len(texts)
 
         for i in range(0, len(texts), batch):
             text_batch = texts[i:(i + batch)]
 
-            emb_batch = self.encode(text_batch)  # chiamo l'hub di google sul text
+            emb_batch = self.encode(text_batch)  # chiamo il modello
             embeddings.append(emb_batch)
-        embeddings = np.vstack(embeddings)
+        embeddings = np.vstack(embeddings)  #a function provided by NumPy that takes a sequence of arrays and stacks them vertically to form a new array.
         return embeddings
 
+"""Funzioni per interagire con le API di quei tirchi della openAI"""
+
 # dato un object semantic search e, se non è già stato fatto, creo gli embeddings del pdf ed applico il nearest neighbors
-def load_recommender(path, start_page=1):
+def load_recommender(path, flagUrl):
+    start_page = 1
     global recommender
-    pdf_file = os.path.basename(path)
+    if(flagUrl):
+        pdf_file = os.path.basename(path)
+    else:
+        pdf_file = os.path.basename(path.name)
     embeddings_file = f"docs\{pdf_file}_{start_page}.npy"
 
     texts = pdf_to_text(path, start_page=start_page)
@@ -120,28 +135,28 @@ def generate_text(openAI_key, prompt, engine="text-davinci-003"):
     completions = openai.Completion.create(
         engine=engine,
         prompt=prompt,
-        max_tokens=512,
+        max_tokens=200,     #incide sulla lunghezza della risposta output, quindi sul prezzo della chiamata
         n=1,
         stop=None,
-        temperature=0.7,
+        temperature=0.7,    #più è basso meno si spende, forse
     )
     message = completions.choices[0].text
     return message
 
 def generate_text2(openAI_key, prompt, engine="gpt-3.5-turbo-0301"):
     openai.api_key = openAI_key
-    messages = [{'role': 'system', 'content': 'You are a helpful assistant.'},
-                {'role': 'user', 'content': prompt}]
 
-    completions = openai.ChatCompletion.create(
+    response = openai.ChatCompletion.create(
         model=engine,
-        messages=messages,
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": prompt}
+        ],
         max_tokens=512,
-        n=1,
-        stop=None,
-        temperature=0.7,
+        temperature=0.7
     )
-    message = completions.choices[0].message['content']
+
+    message = response.choices[0].message['content']
     return message
 
 # 2
@@ -154,47 +169,49 @@ def generate_answer(question, openAI_key):
         prompt += c + '\n\n'
 
     prompt += "Instructions: Compose a comprehensive reply to the query using the search results given. " \
-              "Cite each reference using [ Page Number] notation (every result has this number at the beginning). " \
-              "Citation should be done at the end of each sentence. If the search results mention multiple subjects " \
-              "with the same name, create separate answers for each. Only include information found in the results and " \
-              "don't add any additional information. Make sure the answer is correct and don't output false content. " \
-              "If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier " \
-              "search results which has nothing to do with the question. Only answer what is asked. The " \
-              "answer should be short and concise. Answer step-by-step. \n\nQuery: {question}\nAnswer: "
+              "If the search results mention multiple subjects with the same name, create separate answers for each" \
+              "Only include information found in the results and don't add any additional information. " \
+              "Make sure the answer is correct and don't output false content. " \
+              "If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'." \
+              "Ignore outlier search results which has nothing to do with the question. Only answer what is asked. " \
+              "The answer should be short and concise. Answer step-by-step. \n\nQuery: {question}\nAnswer: "
 
     prompt += f"Query: {question}\nAnswer:"
-    answer = generate_text(openAI_key, prompt, "text-davinci-003")
+
 
     file_object = open('docs\domande.txt', 'a')
     file_object.write('\n\n\nprompt:\n')
     file_object.write(prompt)
     # Close the file
     file_object.close()
+
+    answer = generate_text(openAI_key, prompt, "text-davinci-003")
+    #answer = prompt
     return answer
 
 #1.
-# prima faccio l'embedding sul pdf, poi anche alla domanda e applico il knn
+# prima faccio l'embedding sul pdf, poi anche alla domanda e infine ricerca semantica
 def question_answer(url, file, question, openAI_key):
     if url.strip() != '':
         glob_url = url
         download_pdf(glob_url, 'docs\corpus.pdf')
-        load_recommender('docs\corpus.pdf')  # creo gli embeddings del pdf ed applico il nearest neighbors
-
+        load_recommender('docs\corpus.pdf', True)  # creo gli embeddings del pdf ed applico il nearest neighbors
     else:
-        load_recommender(file)
+        load_recommender(file, False)
 
     if question.strip() == '':
         return '[ERROR]: Question field is empty'
 
     return generate_answer(question, openAI_key)
 
+"""GUI"""
 
 recommender = SemanticSearch()
 
 title = 'Chat Insights'
-description = """Team Namec Spacca."""
+description = """Team Namec spacca."""
 
-with gr.Blocks() as demo:
+with gr.Blocks(theme='freddyaboulton/dracula_revamped') as demo:
     gr.Markdown(f'<center><h1>{title}</h1></center>')
     gr.Markdown(description)
 
@@ -205,7 +222,7 @@ with gr.Blocks() as demo:
             openAI_key = gr.Textbox(label='Enter your OpenAI API key here')
             url = gr.Textbox(label='Enter PDF URL here')
             gr.Markdown("<center><h4>OR<h4></center>")
-            file = gr.File(label='Upload your PDF/ Research Paper / Book here', file_types=['.pdf'])
+            file = gr.File(label='Upload your PDF', file_types=['.pdf'], file_count="multiple")
             question = gr.Textbox(label='Enter your question here')
             btn = gr.Button(value='Submit')
             btn.style(full_width=True)
@@ -215,4 +232,4 @@ with gr.Blocks() as demo:
 
         btn.click(question_answer, inputs=[url, file, question, openAI_key], outputs=[answer])
 # openai.api_key = os.getenv('Your_Key_Here')
-demo.launch()
+demo.launch(debug=True)

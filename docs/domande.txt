@@ -389,3 +389,483 @@ Answer:
 domanda: 
 quanti sono i principi fondamentali della costituzione ?risposta: 
  La Costituzione italiana prevede 42 principi fondamentali. [67] La Costituzione dovrà essere fedelmente osservata come Legge fondamentale della Repubblica da tutti i cittadini e dagli organi dello Stato. [32] Il processo penale è regolato dal principio del contraddittorio nella formazione della prova. La colpevolezza dell’imputato non può essere provata sulla base di dichiarazioni rese da chi, per libera scelta, si è sempre dichiarato colpevole. [44] La legge di cui al comma 1 disciplina altresì: a) il contenuto della legge di bilancio dello Stato; b) la facoltà dei Comuni, delle Province, delle Città metropolitane, delle Regioni e delle Province autonome di Trento e di Bolzano di ricorrere all’indebitamento, ai sensi dell’articolo 119, sesto comma, secondo periodo, della Costituzione, come modificato dall’articolo 4 della presente legge costituzionale; c) le modalità attraverso le quali i Comuni, le Province, le Città metropolitane, le Regioni e le Province autonome di Trento e di Bolzano concorrono alla sostenibilità del debito del complesso delle pubbliche amministrazioni. [46] La Regione Trentino-Alto Adige/Südtirol è costituita dalle Province autonome di Trento e di Bolzano. Ulteriori forme e condizioni particolari di autonomia, concernenti le materie di cui al terzo comma dell’articolo 117 e le materie indicate dal secondo comma del medesimo articolo alle lettere l), limitatamente all’organizzazione della giustizia di pace, n) e s), poss
+
+
+prompt:
+search results:
+
+[7] "Lituania, Ungheria, Polonia, Romania, Repubblica Slovacca, Slovenia, Macedonia, Turchia - € 250 mensili. Ai fondi UE si aggiungono: 1) Contributo integrativo MUR (allegato 3 DM 289/2021): basato sull’indicatore ISEE dello studente. Sono esclusi dal contributo MUR gli studenti iscritti al secondo anno fuori corso e successivi, coloro che non presentano la dichiarazione ISEE e coloro che risulteranno avere un ISEE superiore ai € 50.000,00. 2) Contributo integrativo UNISA: è basato su criteri di premialità. Sarà corrisposto qualora i crediti curriculari riconosciuti in carriera siano superiori a 15 per un semestre e a 30 per periodi superiori. (Vedi allegato 1) Il Programma Erasmus 2021-27 prevede un contributo per il Viaggio Verde (Green travel) per gli studenti che scelgano mezzi di trasporto alternativi all’aereo, quali treno, autobus, nave. Gli studenti in questo caso riceveranno un contributo singolo di € 50 come importo aggiuntivo per il supporto individuale e fino a 4 giorni"
+
+[4] "2023 Art. 8 Criteri di selezione La selezione degli studenti è effettuata dalla Commissione Mobilità Internazionale del Consiglio Didattico di appartenenza dello studente. I criteri di selezione sono di seguito riportati: a) Numero di esami sostenuti entro la data di scadenza del bando; b) merito accademico: media ponderata; La media ponderata viene calcolata moltiplicando ogni voto per il numero di crediti dell'esame corrispondente. Tutti i valori così ottenuti sono sommati e alla fine divisi per il numero complessivo di crediti maturati sulle attività con voto. Ai fini della selezione si applicheranno i criteri di arrotondamento: le cifre dopo la virgola minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio"
+
+[7] "deve essere formalizzato entro fine luglio per chi parte nel primo semestre ed entro fine novembre per chi parte nel secondo semestre. Al fine di formalizzare il contratto è necessario assicurarsi che su ESSE3 siano correttamente caricati: 1 il documento di riconoscimento in corso di validità, 2 la fotocopia della tessera sanitaria 3 il codice IBAN relativo al conto corrente postale/bancario o alla carta prepagata di cui lo studente è intestatario o cointestatario, assicurandosi che non abbia limiti all’accredito; 4 il Learning Agreement approvato dal tutor interno in ESSE3. Prima della firma del contratto è necessario chiedere il cambio data di partenza sulla base di quanto indicato dall’Università ospitante o sulla base della tipologia di viaggio prescelta e presentare eventuale documentazione aggiuntiva comunicata sulla pagina web International.  7 Se la documentazione prodotta dovesse risultare errata o incompleta il pagamento della borsa potrà essere ritardato. Art. 18 Online Language Support"
+
+[8] "esami sostenuti dallo studente con l’indicazione del voto, e della curva di distribuzione dei voti e dei crediti ECTS. Nel caso di mobilità per ricerca tesi il Transcript of Records potrà essere sostituito da un certificato attestante lo svolgimento dell’attività di ricerca e firmato dal tutor dell’Università ospitante; c) Breve relazione (max due pagine sull’esperienza di mobilità); d) Nel caso in cui lo studente ha fatto un viaggio in modalità green, per beneficiare del contributo aggiuntivo dovrà caricare i giustificativi di viaggio nominativi. Art. 21 Erogazione della borsa ed eventuali restituzioni La borsa di studio è sempre da considerarsi un contributo parziale alle spese di mobilità ed è comunque legata ai risultati accademici e al periodo di mobilità effettiva. In caso di necessità di restituzione delle somme erogate a causa di rientro anticipato e/o di mancato conseguimento dei CFU richiesti dal contratto, lo studente si impegna a restituire la somma"
+
+[10] "PEC: protezionedati@pec.unisa.it. Responsabile amministrativo del procedimento, secondo quanto previsto dagli artt. 4 e ss. della L. 7 agosto 1990, n° 241, e successive modificazioni, è il è la Dott.ssa Maria Rizzo, capo dell’Ufficio Relazioni Internazionali – Erasmus dell’Università degli Studi di Salerno – via Giovanni Paolo II, n° 132, 84084 Fisciano (Sa) – tel. 089/962368, fax 089/962560, e-mail: outgoingstudents@unisa.it F.to Il Rettore Vincenzo LOIA Documento firmato digitalmente ai sensi del Codice dell'Amministrazione Digitale e norme a esso connesse"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade?
+Answer:
+
+
+prompt:
+search results:
+
+[2] "già fruiti nell’ambito dei precedenti Programmi comunitari. La durata della mobilità dipende non solo dal numero di mesi residui per il proprio ciclo di studio ma anche dalla durata della mobilità prevista dall’accordo inter-istituzionale relativo alla destinazione scelta, dunque se l’accordo è per un semestre la mobilità non può essere di un’annualità. Art. 4 Destinatari della mobilità Possono partecipare al presente bando gli studenti dell’Università degli Studi di Salerno che, nell’anno accademico 2022-2023, siano regolarmente iscritti a corsi di studio di I, II e III ciclo e partecipano al bando relativo allo stesso corso di studio per l’anno 2023/24. Per la partecipazione al bando è essenziale il possesso dei requisiti linguistici richiesti dall’Istituzione ospitante. Coloro che intendono laurearsi nella sessione straordinaria a.a. 2022/2023 dovranno aver concluso la mobilità entro il conseguimento della laurea. In caso di mancato conseguimento del titolo di laurea entro la sessione straordinaria a.a.2022/2023, sarà necessario formalizzare"
+
+[9] "non viene corrisposta per il periodo trascorso in Italia o in un paese diverso da quello di assegnazione della mobilità. Art. 28 Trattamento dei dati Ai sensi del Regolamento UE del Parlamento Europeo e del Consiglio in data 27 aprile 2016 (pubblicato nella Gazzetta Ufficiale dell’Unione Europea n° L. 119/1 del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di concorso ed all’eventuale gestione del rapporto con l’Ateneo, e successivamente trattati in modo compatibile con tale finalità. Essi saranno conservati in una forma che consenta l'identificazione degli interessati per un arco di tempo non superiore al conseguimento delle suddette finalità, nonché per fini statistici, previa adozione di misure tecniche e"
+
+[2] "obbligatoriamente entro il 30 settembre 2024. Mobilità di durata inferiore a 2 mesi non saranno finanziate. Solo la mobilità per dottorandi può essere anche per periodi brevi (short-term) di 5-30 giorni. Art. 3 Le opportunità di Erasmus+ Ogni studente può svolgere mobilità per un massimo di 12 mesi (studio/traineeship/International Credit mobility) per ogni ciclo di studio: I ciclo (laurea triennale) II ciclo (laurea magistrale) III ciclo (dottorato di ricerca) e 24 mesi (12 mesi al massimo per anno accademico) di mobilità nel caso di corsi di laurea magistrale a ciclo unico. Per il presente bando possono presentare domanda anche gli studenti che abbiano già usufruito di una borsa/status Erasmus per studio e/o tirocinio se, per il ciclo di studio per il quale si propongono abbiano ancora a disposizione un tempo sufficiente per seguire i corsi all’estero e sostenere i relativi esami. Ai fini del calcolo sono considerati anche i mesi"
+
+[2] "l’iscrizione all’a.a.2023/2024. N.B. È responsabilità di ogni candidato verificare il numero di mensilità Erasmus ancora disponibili per il ciclo di studi di riferimento, ai fini della candidatura al presente bando. In caso di falsa dichiarazione, la mobilità potrà essere annullata prevedendo la restituzione dei contributi erogati. A tal proposito si richiamano inoltre le responsabilità penali legate al rilascio di dichiarazioni mendaci (Codice penale e leggi speciali in materia, ai sensi e per gli effetti dell'art. 76 D.P.R. n. 445/2000). Art. 5 Scegliere l’Istituzione ospitante L’elenco delle destinazioni e dei tutor interni per i diversi accordi di mobilità con le Università straniere è allegato al bando. Le Università straniere di Programme e Partner countries definiscono le SCADENZE per: - Nomination (candidatura, ovvero ricezione dei nominativi) di coloro che effettueranno la mobilità Erasmus+ presso la propria Università. - Application (domanda di ammissione) di coloro che sono stati nominati. Questo processo è curato"
+
+[6] "la disponibilità di un tutor e di un laboratorio dove poter svolgere ricerca tesi e/o tirocinio curriculare. Il numero di crediti curriculari riconosciuti in carriera determinerà un contributo integrativo differenziato, così come riportato nell’Art.19. Art. 16 Contratto di mobilità Tutti gli studenti, prima della partenza, devono sottoscrivere il contratto di mobilità, essere in regola con il pagamento delle tasse e aver ricevuto l’approvazione del Learning Agreement da parte del tutor interno. Allo studente che parte prima di aver firmato il contratto e adempiuto a quanto richiesto dal bando, non sarà erogata la borsa né saranno riconosciuti eventuali crediti. Il contratto e il Learning Agreement allegato sanciscono l’impegno dello studente a raggiungere i risultati accademici concordati e l’obbligo dell’Ateneo a riconoscere quanto realizzato. Consente, inoltre, di corrispondere allo studente l’importo relativo alla borsa di studio. A tal fine si specifica che la borsa di studio nel periodo di svolgimento della mobilità"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[2] "già fruiti nell’ambito dei precedenti Programmi comunitari. La durata della mobilità dipende non solo dal numero di mesi residui per il proprio ciclo di studio ma anche dalla durata della mobilità prevista dall’accordo inter-istituzionale relativo alla destinazione scelta, dunque se l’accordo è per un semestre la mobilità non può essere di un’annualità. Art. 4 Destinatari della mobilità Possono partecipare al presente bando gli studenti dell’Università degli Studi di Salerno che, nell’anno accademico 2022-2023, siano regolarmente iscritti a corsi di studio di I, II e III ciclo e partecipano al bando relativo allo stesso corso di studio per l’anno 2023/24. Per la partecipazione al bando è essenziale il possesso dei requisiti linguistici richiesti dall’Istituzione ospitante. Coloro che intendono laurearsi nella sessione straordinaria a.a. 2022/2023 dovranno aver concluso la mobilità entro il conseguimento della laurea. In caso di mancato conseguimento del titolo di laurea entro la sessione straordinaria a.a.2022/2023, sarà necessario formalizzare"
+
+[2] "obbligatoriamente entro il 30 settembre 2024. Mobilità di durata inferiore a 2 mesi non saranno finanziate. Solo la mobilità per dottorandi può essere anche per periodi brevi (short-term) di 5-30 giorni. Art. 3 Le opportunità di Erasmus+ Ogni studente può svolgere mobilità per un massimo di 12 mesi (studio/traineeship/International Credit mobility) per ogni ciclo di studio: I ciclo (laurea triennale) II ciclo (laurea magistrale) III ciclo (dottorato di ricerca) e 24 mesi (12 mesi al massimo per anno accademico) di mobilità nel caso di corsi di laurea magistrale a ciclo unico. Per il presente bando possono presentare domanda anche gli studenti che abbiano già usufruito di una borsa/status Erasmus per studio e/o tirocinio se, per il ciclo di studio per il quale si propongono abbiano ancora a disposizione un tempo sufficiente per seguire i corsi all’estero e sostenere i relativi esami. Ai fini del calcolo sono considerati anche i mesi"
+
+[4] "2023 Art. 8 Criteri di selezione La selezione degli studenti è effettuata dalla Commissione Mobilità Internazionale del Consiglio Didattico di appartenenza dello studente. I criteri di selezione sono di seguito riportati: a) Numero di esami sostenuti entro la data di scadenza del bando; b) merito accademico: media ponderata; La media ponderata viene calcolata moltiplicando ogni voto per il numero di crediti dell'esame corrispondente. Tutti i valori così ottenuti sono sommati e alla fine divisi per il numero complessivo di crediti maturati sulle attività con voto. Ai fini della selezione si applicheranno i criteri di arrotondamento: le cifre dopo la virgola minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio"
+
+[7] "Lituania, Ungheria, Polonia, Romania, Repubblica Slovacca, Slovenia, Macedonia, Turchia - € 250 mensili. Ai fondi UE si aggiungono: 1) Contributo integrativo MUR (allegato 3 DM 289/2021): basato sull’indicatore ISEE dello studente. Sono esclusi dal contributo MUR gli studenti iscritti al secondo anno fuori corso e successivi, coloro che non presentano la dichiarazione ISEE e coloro che risulteranno avere un ISEE superiore ai € 50.000,00. 2) Contributo integrativo UNISA: è basato su criteri di premialità. Sarà corrisposto qualora i crediti curriculari riconosciuti in carriera siano superiori a 15 per un semestre e a 30 per periodi superiori. (Vedi allegato 1) Il Programma Erasmus 2021-27 prevede un contributo per il Viaggio Verde (Green travel) per gli studenti che scelgano mezzi di trasporto alternativi all’aereo, quali treno, autobus, nave. Gli studenti in questo caso riceveranno un contributo singolo di € 50 come importo aggiuntivo per il supporto individuale e fino a 4 giorni"
+
+[8] "entro 60 giorni dalla notifica del debito. Dopo questo termine saranno attivati gli opportuni canali per il recupero del credito da parte dell’Università. Art. 22 Prolungamento Nel corso della mobilità, eventuali prolungamenti sono da considerarsi eccezionali e giustificati da motivi didattici comprovati dall’accettazione della modifica del Learning Agreement da parte dei tutor. La richiesta di prolungamento e il Learning Agreement aggiornato devono pervenire, debitamente firmati, all’Ufficio Relazioni Internazionali – Erasmus un mese prima della scadenza del contratto di mobilità. Previa disponibilità di fondi i prolungamenti potranno essere finanziati con fondi UE e con fondi MUR per coloro che rientrano nella mobilità di cui all’art. 19, qualora le condizioni lo consentano (indicatore ISEE e anno di iscrizione come stabilito dall’allegato 3 del DM 289/2021). Art. 23 Sostegno finanziario agli studenti con bisogni speciali Gli studenti diversamente abili selezionati nell’ambito del programma Erasmus+ potranno ricevere un contributo comunitario specifico, previa richiesta da"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[2] "già fruiti nell’ambito dei precedenti Programmi comunitari. La durata della mobilità dipende non solo dal numero di mesi residui per il proprio ciclo di studio ma anche dalla durata della mobilità prevista dall’accordo inter-istituzionale relativo alla destinazione scelta, dunque se l’accordo è per un semestre la mobilità non può essere di un’annualità. Art. 4 Destinatari della mobilità Possono partecipare al presente bando gli studenti dell’Università degli Studi di Salerno che, nell’anno accademico 2022-2023, siano regolarmente iscritti a corsi di studio di I, II e III ciclo e partecipano al bando relativo allo stesso corso di studio per l’anno 2023/24. Per la partecipazione al bando è essenziale il possesso dei requisiti linguistici richiesti dall’Istituzione ospitante. Coloro che intendono laurearsi nella sessione straordinaria a.a. 2022/2023 dovranno aver concluso la mobilità entro il conseguimento della laurea. In caso di mancato conseguimento del titolo di laurea entro la sessione straordinaria a.a.2022/2023, sarà necessario formalizzare"
+
+[2] "obbligatoriamente entro il 30 settembre 2024. Mobilità di durata inferiore a 2 mesi non saranno finanziate. Solo la mobilità per dottorandi può essere anche per periodi brevi (short-term) di 5-30 giorni. Art. 3 Le opportunità di Erasmus+ Ogni studente può svolgere mobilità per un massimo di 12 mesi (studio/traineeship/International Credit mobility) per ogni ciclo di studio: I ciclo (laurea triennale) II ciclo (laurea magistrale) III ciclo (dottorato di ricerca) e 24 mesi (12 mesi al massimo per anno accademico) di mobilità nel caso di corsi di laurea magistrale a ciclo unico. Per il presente bando possono presentare domanda anche gli studenti che abbiano già usufruito di una borsa/status Erasmus per studio e/o tirocinio se, per il ciclo di studio per il quale si propongono abbiano ancora a disposizione un tempo sufficiente per seguire i corsi all’estero e sostenere i relativi esami. Ai fini del calcolo sono considerati anche i mesi"
+
+[4] "2023 Art. 8 Criteri di selezione La selezione degli studenti è effettuata dalla Commissione Mobilità Internazionale del Consiglio Didattico di appartenenza dello studente. I criteri di selezione sono di seguito riportati: a) Numero di esami sostenuti entro la data di scadenza del bando; b) merito accademico: media ponderata; La media ponderata viene calcolata moltiplicando ogni voto per il numero di crediti dell'esame corrispondente. Tutti i valori così ottenuti sono sommati e alla fine divisi per il numero complessivo di crediti maturati sulle attività con voto. Ai fini della selezione si applicheranno i criteri di arrotondamento: le cifre dopo la virgola minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio"
+
+[7] "Lituania, Ungheria, Polonia, Romania, Repubblica Slovacca, Slovenia, Macedonia, Turchia - € 250 mensili. Ai fondi UE si aggiungono: 1) Contributo integrativo MUR (allegato 3 DM 289/2021): basato sull’indicatore ISEE dello studente. Sono esclusi dal contributo MUR gli studenti iscritti al secondo anno fuori corso e successivi, coloro che non presentano la dichiarazione ISEE e coloro che risulteranno avere un ISEE superiore ai € 50.000,00. 2) Contributo integrativo UNISA: è basato su criteri di premialità. Sarà corrisposto qualora i crediti curriculari riconosciuti in carriera siano superiori a 15 per un semestre e a 30 per periodi superiori. (Vedi allegato 1) Il Programma Erasmus 2021-27 prevede un contributo per il Viaggio Verde (Green travel) per gli studenti che scelgano mezzi di trasporto alternativi all’aereo, quali treno, autobus, nave. Gli studenti in questo caso riceveranno un contributo singolo di € 50 come importo aggiuntivo per il supporto individuale e fino a 4 giorni"
+
+[8] "entro 60 giorni dalla notifica del debito. Dopo questo termine saranno attivati gli opportuni canali per il recupero del credito da parte dell’Università. Art. 22 Prolungamento Nel corso della mobilità, eventuali prolungamenti sono da considerarsi eccezionali e giustificati da motivi didattici comprovati dall’accettazione della modifica del Learning Agreement da parte dei tutor. La richiesta di prolungamento e il Learning Agreement aggiornato devono pervenire, debitamente firmati, all’Ufficio Relazioni Internazionali – Erasmus un mese prima della scadenza del contratto di mobilità. Previa disponibilità di fondi i prolungamenti potranno essere finanziati con fondi UE e con fondi MUR per coloro che rientrano nella mobilità di cui all’art. 19, qualora le condizioni lo consentano (indicatore ISEE e anno di iscrizione come stabilito dall’allegato 3 del DM 289/2021). Art. 23 Sostegno finanziario agli studenti con bisogni speciali Gli studenti diversamente abili selezionati nell’ambito del programma Erasmus+ potranno ricevere un contributo comunitario specifico, previa richiesta da"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[2] "già fruiti nell’ambito dei precedenti Programmi comunitari. La durata della mobilità dipende non solo dal numero di mesi residui per il proprio ciclo di studio ma anche dalla durata della mobilità prevista dall’accordo inter-istituzionale relativo alla destinazione scelta, dunque se l’accordo è per un semestre la mobilità non può essere di un’annualità. Art. 4 Destinatari della mobilità Possono partecipare al presente bando gli studenti dell’Università degli Studi di Salerno che, nell’anno accademico 2022-2023, siano regolarmente iscritti a corsi di studio di I, II e III ciclo e partecipano al bando relativo allo stesso corso di studio per l’anno 2023/24. Per la partecipazione al bando è essenziale il possesso dei requisiti linguistici richiesti dall’Istituzione ospitante. Coloro che intendono laurearsi nella sessione straordinaria a.a. 2022/2023 dovranno aver concluso la mobilità entro il conseguimento della laurea. In caso di mancato conseguimento del titolo di laurea entro la sessione straordinaria a.a.2022/2023, sarà necessario formalizzare"
+
+[2] "obbligatoriamente entro il 30 settembre 2024. Mobilità di durata inferiore a 2 mesi non saranno finanziate. Solo la mobilità per dottorandi può essere anche per periodi brevi (short-term) di 5-30 giorni. Art. 3 Le opportunità di Erasmus+ Ogni studente può svolgere mobilità per un massimo di 12 mesi (studio/traineeship/International Credit mobility) per ogni ciclo di studio: I ciclo (laurea triennale) II ciclo (laurea magistrale) III ciclo (dottorato di ricerca) e 24 mesi (12 mesi al massimo per anno accademico) di mobilità nel caso di corsi di laurea magistrale a ciclo unico. Per il presente bando possono presentare domanda anche gli studenti che abbiano già usufruito di una borsa/status Erasmus per studio e/o tirocinio se, per il ciclo di studio per il quale si propongono abbiano ancora a disposizione un tempo sufficiente per seguire i corsi all’estero e sostenere i relativi esami. Ai fini del calcolo sono considerati anche i mesi"
+
+[4] "2023 Art. 8 Criteri di selezione La selezione degli studenti è effettuata dalla Commissione Mobilità Internazionale del Consiglio Didattico di appartenenza dello studente. I criteri di selezione sono di seguito riportati: a) Numero di esami sostenuti entro la data di scadenza del bando; b) merito accademico: media ponderata; La media ponderata viene calcolata moltiplicando ogni voto per il numero di crediti dell'esame corrispondente. Tutti i valori così ottenuti sono sommati e alla fine divisi per il numero complessivo di crediti maturati sulle attività con voto. Ai fini della selezione si applicheranno i criteri di arrotondamento: le cifre dopo la virgola minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio"
+
+[7] "Lituania, Ungheria, Polonia, Romania, Repubblica Slovacca, Slovenia, Macedonia, Turchia - € 250 mensili. Ai fondi UE si aggiungono: 1) Contributo integrativo MUR (allegato 3 DM 289/2021): basato sull’indicatore ISEE dello studente. Sono esclusi dal contributo MUR gli studenti iscritti al secondo anno fuori corso e successivi, coloro che non presentano la dichiarazione ISEE e coloro che risulteranno avere un ISEE superiore ai € 50.000,00. 2) Contributo integrativo UNISA: è basato su criteri di premialità. Sarà corrisposto qualora i crediti curriculari riconosciuti in carriera siano superiori a 15 per un semestre e a 30 per periodi superiori. (Vedi allegato 1) Il Programma Erasmus 2021-27 prevede un contributo per il Viaggio Verde (Green travel) per gli studenti che scelgano mezzi di trasporto alternativi all’aereo, quali treno, autobus, nave. Gli studenti in questo caso riceveranno un contributo singolo di € 50 come importo aggiuntivo per il supporto individuale e fino a 4 giorni"
+
+[8] "entro 60 giorni dalla notifica del debito. Dopo questo termine saranno attivati gli opportuni canali per il recupero del credito da parte dell’Università. Art. 22 Prolungamento Nel corso della mobilità, eventuali prolungamenti sono da considerarsi eccezionali e giustificati da motivi didattici comprovati dall’accettazione della modifica del Learning Agreement da parte dei tutor. La richiesta di prolungamento e il Learning Agreement aggiornato devono pervenire, debitamente firmati, all’Ufficio Relazioni Internazionali – Erasmus un mese prima della scadenza del contratto di mobilità. Previa disponibilità di fondi i prolungamenti potranno essere finanziati con fondi UE e con fondi MUR per coloro che rientrano nella mobilità di cui all’art. 19, qualora le condizioni lo consentano (indicatore ISEE e anno di iscrizione come stabilito dall’allegato 3 del DM 289/2021). Art. 23 Sostegno finanziario agli studenti con bisogni speciali Gli studenti diversamente abili selezionati nell’ambito del programma Erasmus+ potranno ricevere un contributo comunitario specifico, previa richiesta da"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[3] "online di posizionamento che si terrà il 17 febbraio alle ore 15. I corsi avranno inizio a partire dal 1° marzo 2023 per gli studenti in partenza nel primo semestre. Gli studenti in partenza nel secondo semestre verranno riconvocati successivamente. Art. 6 Candidatura La candidatura, la cui scadenza è fissata per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il ciclo di studi di riferimento 3 istituzioni ospitanti tra i Programme countries e altrettante per i Partner countries. Per tutti i corsi di doppio e triplo titolo la scelta della sede è ovviamente vincolata. Gli studenti che presentano una doppia candidatura (per Programme countries e Partner countries) devono informare la"
+
+[2] "già fruiti nell’ambito dei precedenti Programmi comunitari. La durata della mobilità dipende non solo dal numero di mesi residui per il proprio ciclo di studio ma anche dalla durata della mobilità prevista dall’accordo inter-istituzionale relativo alla destinazione scelta, dunque se l’accordo è per un semestre la mobilità non può essere di un’annualità. Art. 4 Destinatari della mobilità Possono partecipare al presente bando gli studenti dell’Università degli Studi di Salerno che, nell’anno accademico 2022-2023, siano regolarmente iscritti a corsi di studio di I, II e III ciclo e partecipano al bando relativo allo stesso corso di studio per l’anno 2023/24. Per la partecipazione al bando è essenziale il possesso dei requisiti linguistici richiesti dall’Istituzione ospitante. Coloro che intendono laurearsi nella sessione straordinaria a.a. 2022/2023 dovranno aver concluso la mobilità entro il conseguimento della laurea. In caso di mancato conseguimento del titolo di laurea entro la sessione straordinaria a.a.2022/2023, sarà necessario formalizzare"
+
+[1] "con le Istituzioni di Istruzione Superiore dei Paesi Terzi (Partner Countries) su cui allocare non oltre il 20% del budget totale; VISTI gli Accordi di cooperazione internazionale finalizzati al rilascio del doppio titolo; VISTI i fondi comunitari 2022-1-IT02-KA131-HED-000063897 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando di selezione per lo svolgimento di mobilità per studio nell’ambito: - del Programma Erasmus+ 2021-2027, normata dal Regolamento (UE) n. 2021/817 del Parlamento Europeo e del Consiglio del 20 maggio 2021 e dalla Guida al programma Erasmus+ 2021-2027 - degli Accordi finalizzati al rilascio del doppio e triplo titolo La"
+
+[8] "entro 60 giorni dalla notifica del debito. Dopo questo termine saranno attivati gli opportuni canali per il recupero del credito da parte dell’Università. Art. 22 Prolungamento Nel corso della mobilità, eventuali prolungamenti sono da considerarsi eccezionali e giustificati da motivi didattici comprovati dall’accettazione della modifica del Learning Agreement da parte dei tutor. La richiesta di prolungamento e il Learning Agreement aggiornato devono pervenire, debitamente firmati, all’Ufficio Relazioni Internazionali – Erasmus un mese prima della scadenza del contratto di mobilità. Previa disponibilità di fondi i prolungamenti potranno essere finanziati con fondi UE e con fondi MUR per coloro che rientrano nella mobilità di cui all’art. 19, qualora le condizioni lo consentano (indicatore ISEE e anno di iscrizione come stabilito dall’allegato 3 del DM 289/2021). Art. 23 Sostegno finanziario agli studenti con bisogni speciali Gli studenti diversamente abili selezionati nell’ambito del programma Erasmus+ potranno ricevere un contributo comunitario specifico, previa richiesta da"
+
+[3] "commissione in fase di colloquio e, in ogni caso, potrà essere approvata soltanto una delle due candidature. La corretta compilazione della candidatura sarà indicata nel sistema con un simbolo verde in corrispondenza dello stato di iscrizione al bando. Candidature incomplete non saranno prese in considerazione. Art. 7 Calendario attività Presentazione candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore 15:00 Pubblicazione graduatorie: 24 febbraio 2023 Ricorso alla Commissione Mobilità Internazionale: 27 febbraio 2023 Accettazione mobilità: 25–28 febbraio 2023 Giornata informativa virtuale: 14 marzo 2023. Presentazione del Learning Agreement (1° semestre): dal 27 marzo al 31 luglio 2023 Presentazione del Learning Agreement (2° semestre): dal 1 settembre al 30 novembre"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[3] "online di posizionamento che si terrà il 17 febbraio alle ore 15. I corsi avranno inizio a partire dal 1° marzo 2023 per gli studenti in partenza nel primo semestre. Gli studenti in partenza nel secondo semestre verranno riconvocati successivamente. Art. 6 Candidatura La candidatura, la cui scadenza è fissata per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il ciclo di studi di riferimento 3 istituzioni ospitanti tra i Programme countries e altrettante per i Partner countries. Per tutti i corsi di doppio e triplo titolo la scelta della sede è ovviamente vincolata. Gli studenti che presentano una doppia candidatura (per Programme countries e Partner countries) devono informare la"
+
+[2] "già fruiti nell’ambito dei precedenti Programmi comunitari. La durata della mobilità dipende non solo dal numero di mesi residui per il proprio ciclo di studio ma anche dalla durata della mobilità prevista dall’accordo inter-istituzionale relativo alla destinazione scelta, dunque se l’accordo è per un semestre la mobilità non può essere di un’annualità. Art. 4 Destinatari della mobilità Possono partecipare al presente bando gli studenti dell’Università degli Studi di Salerno che, nell’anno accademico 2022-2023, siano regolarmente iscritti a corsi di studio di I, II e III ciclo e partecipano al bando relativo allo stesso corso di studio per l’anno 2023/24. Per la partecipazione al bando è essenziale il possesso dei requisiti linguistici richiesti dall’Istituzione ospitante. Coloro che intendono laurearsi nella sessione straordinaria a.a. 2022/2023 dovranno aver concluso la mobilità entro il conseguimento della laurea. In caso di mancato conseguimento del titolo di laurea entro la sessione straordinaria a.a.2022/2023, sarà necessario formalizzare"
+
+[1] "con le Istituzioni di Istruzione Superiore dei Paesi Terzi (Partner Countries) su cui allocare non oltre il 20% del budget totale; VISTI gli Accordi di cooperazione internazionale finalizzati al rilascio del doppio titolo; VISTI i fondi comunitari 2022-1-IT02-KA131-HED-000063897 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando di selezione per lo svolgimento di mobilità per studio nell’ambito: - del Programma Erasmus+ 2021-2027, normata dal Regolamento (UE) n. 2021/817 del Parlamento Europeo e del Consiglio del 20 maggio 2021 e dalla Guida al programma Erasmus+ 2021-2027 - degli Accordi finalizzati al rilascio del doppio e triplo titolo La"
+
+[8] "entro 60 giorni dalla notifica del debito. Dopo questo termine saranno attivati gli opportuni canali per il recupero del credito da parte dell’Università. Art. 22 Prolungamento Nel corso della mobilità, eventuali prolungamenti sono da considerarsi eccezionali e giustificati da motivi didattici comprovati dall’accettazione della modifica del Learning Agreement da parte dei tutor. La richiesta di prolungamento e il Learning Agreement aggiornato devono pervenire, debitamente firmati, all’Ufficio Relazioni Internazionali – Erasmus un mese prima della scadenza del contratto di mobilità. Previa disponibilità di fondi i prolungamenti potranno essere finanziati con fondi UE e con fondi MUR per coloro che rientrano nella mobilità di cui all’art. 19, qualora le condizioni lo consentano (indicatore ISEE e anno di iscrizione come stabilito dall’allegato 3 del DM 289/2021). Art. 23 Sostegno finanziario agli studenti con bisogni speciali Gli studenti diversamente abili selezionati nell’ambito del programma Erasmus+ potranno ricevere un contributo comunitario specifico, previa richiesta da"
+
+[3] "commissione in fase di colloquio e, in ogni caso, potrà essere approvata soltanto una delle due candidature. La corretta compilazione della candidatura sarà indicata nel sistema con un simbolo verde in corrispondenza dello stato di iscrizione al bando. Candidature incomplete non saranno prese in considerazione. Art. 7 Calendario attività Presentazione candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore 15:00 Pubblicazione graduatorie: 24 febbraio 2023 Ricorso alla Commissione Mobilità Internazionale: 27 febbraio 2023 Accettazione mobilità: 25–28 febbraio 2023 Giornata informativa virtuale: 14 marzo 2023. Presentazione del Learning Agreement (1° semestre): dal 27 marzo al 31 luglio 2023 Presentazione del Learning Agreement (2° semestre): dal 1 settembre al 30 novembre"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[3] "momento della candidatura sarà richiesto di compilare il “modulo di scelta sedi e attività” presente al seguente link: https://forms.gle/JEKbSwywKD7aFhXE7 in cui, per ciascuna delle tre possibili istituzioni ospitanti prescelte, specificare: 3 o 6 attività didattiche (a seconda che il periodo di mobilità per la sede scelta sia di uno o"
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[10] "legge; a tal fine, il trattamento sarà curato da personale dell’Ateneo. Ai sensi degli articoli 15-22 del Regolamento UE, i candidati hanno diritto di ottenere conferma dell’esistenza o meno di un trattamento dei dati personali forniti e, in tal caso, di ottenere l'accesso agli stessi. Hanno altresì diritto di: chiedere"
+
+[2] "dal singolo studente vincitore della Mobilità Erasmus+. Nel caso in cui le scadenze di cui sopra siano precedenti alla conclusione del processo di selezione dell'Università di Salerno, la partenza nel 1° semestre dell'anno accademico 2023/2024 NON è garantita e sarà necessario prendere in considerazione un'eventuale partenza nel 2° semestre, indipendentemente"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. Cite each reference using [ Page Number] notation (every result has this number at the beginning). Citation should be done at the end of each sentence. If the search results mention multiple subjects with the same name, create separate answers for each. Only include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Text Not Found in PDF'. Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "momento della candidatura sarà richiesto di compilare il “modulo di scelta sedi e attività” presente al seguente link: https://forms.gle/JEKbSwywKD7aFhXE7 in cui, per ciascuna delle tre possibili istituzioni ospitanti prescelte, specificare: 3 o 6 attività didattiche (a seconda che il periodo di mobilità per la sede scelta sia di uno o"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[2] "dal singolo studente vincitore della Mobilità Erasmus+. Nel caso in cui le scadenze di cui sopra siano precedenti alla conclusione del processo di selezione dell'Università di Salerno, la partenza nel 1° semestre dell'anno accademico 2023/2024 NON è garantita e sarà necessario prendere in considerazione un'eventuale partenza nel 2° semestre, indipendentemente"
+
+[10] "legge; a tal fine, il trattamento sarà curato da personale dell’Ateneo. Ai sensi degli articoli 15-22 del Regolamento UE, i candidati hanno diritto di ottenere conferma dell’esistenza o meno di un trattamento dei dati personali forniti e, in tal caso, di ottenere l'accesso agli stessi. Hanno altresì diritto di: chiedere"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "momento della candidatura sarà richiesto di compilare il “modulo di scelta sedi e attività” presente al seguente link: https://forms.gle/JEKbSwywKD7aFhXE7 in cui, per ciascuna delle tre possibili istituzioni ospitanti prescelte, specificare: 3 o 6 attività didattiche (a seconda che il periodo di mobilità per la sede scelta sia di uno o"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[2] "dal singolo studente vincitore della Mobilità Erasmus+. Nel caso in cui le scadenze di cui sopra siano precedenti alla conclusione del processo di selezione dell'Università di Salerno, la partenza nel 1° semestre dell'anno accademico 2023/2024 NON è garantita e sarà necessario prendere in considerazione un'eventuale partenza nel 2° semestre, indipendentemente"
+
+[10] "legge; a tal fine, il trattamento sarà curato da personale dell’Ateneo. Ai sensi degli articoli 15-22 del Regolamento UE, i candidati hanno diritto di ottenere conferma dell’esistenza o meno di un trattamento dei dati personali forniti e, in tal caso, di ottenere l'accesso agli stessi. Hanno altresì diritto di: chiedere"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade?
+Answer:
+
+
+prompt:
+search results:
+
+[6] "contratto e adempiuto a quanto richiesto dal bando, non sarà erogata la borsa né saranno riconosciuti eventuali crediti. Il contratto e il Learning Agreement allegato sanciscono l’impegno dello studente a raggiungere i risultati accademici concordati e l’obbligo dell’Ateneo a riconoscere quanto realizzato. Consente, inoltre, di corrispondere allo studente l’importo relativo alla borsa di studio. A tal fine si specifica che la borsa di studio nel periodo di svolgimento della mobilità"
+
+[5] "prescinde da tale regola qualora il candidato proponga la sua candidatura per un ciclo di studio differente rispetto a quello in cui la mobilità precedente è stata svolta.  5 Per entrambe le graduatorie, a parità di punteggio, costituirà titolo preferenziale avere una minore anzianità nella carriera universitaria. In caso di ulteriore parità si darà la precedenza al candidato più giovane d’età. Avverso gli esiti delle selezioni, è ammesso ricorso"
+
+[9] "di € 700,00 mensili a cui si aggiunge un rimborso spese forfettario per il viaggio calcolato sulla base della distanza chilometrica tra l’Università di Salerno e il paese ospitante e pubblicata sul sito. Il 70% dell’importo mensile moltiplicato per i mesi di permanenza presso l’Istituzione ospitante è erogato allo studente prima dell’inizio della mobilità o durante il suo soggiorno. Il restante 30% sarà corrisposto allo studente al suo rientro previo"
+
+[4] "laurea bi-nazionale, la cui mobilità è obbligatoria. I suddetti studenti devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di Ingegneria edile-architettura, di Scienze della formazione primaria nel caso in"
+
+[2] "cui le scadenze di cui sopra siano precedenti alla conclusione del processo di selezione dell'Università di Salerno, la partenza nel 1° semestre dell'anno accademico 2023/2024 NON è garantita e sarà necessario prendere in considerazione un'eventuale partenza nel 2° semestre, indipendentemente dal numero di mesi previsti dall’accordo con l’Università di destinazione. Nell’interesse dello studente è richiesta la consultazione dei siti web delle Istituzioni ospitanti prima di candidarsi. Lo scopo è acquisire"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade?
+Answer:
+
+
+prompt:
+search results:
+
+[3] "dal singolo studente vincitore della Mobilità Erasmus+. Nel caso in cui le scadenze di cui sopra siano precedenti alla conclusione del processo di selezione dell'Università di Salerno, la partenza nel 1° semestre dell'anno accademico 2023/2024 NON è garantita e sarà necessario prendere in considerazione un'eventuale partenza nel 2° semestre, indipendentemente dal numero di mesi previsti dall’accordo con l’Università di destinazione. Nell’interesse dello studente è richiesta la consultazione dei siti web delle Istituzioni ospitanti prima di candidarsi. Lo scopo è acquisire informazioni utili al buon esito della mobilità relativamente a offerta formativa, requisiti o certificazioni linguistiche e altro.  3 Al momento della candidatura sarà richiesto di compilare il “modulo di scelta sedi e attività” presente al seguente link: https://forms.gle/JEKbSwywKD7aFhXE7 in cui, per ciascuna delle tre possibili istituzioni ospitanti prescelte, specificare: 3 o 6 attività didattiche (a seconda che il periodo di mobilità per la sede scelta sia di uno o"
+
+[4] "2023 Art. 8 Criteri di selezione La selezione degli studenti è effettuata dalla Commissione Mobilità Internazionale del Consiglio Didattico di appartenenza dello studente. I criteri di selezione sono di seguito riportati: a) Numero di esami sostenuti entro la data di scadenza del bando; b) merito accademico: media ponderata; La media ponderata viene calcolata moltiplicando ogni voto per il numero di crediti dell'esame corrispondente. Tutti i valori così ottenuti sono sommati e alla fine divisi per il numero complessivo di crediti maturati sulle attività con voto. Ai fini della selezione si applicheranno i criteri di arrotondamento: le cifre dopo la virgola minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio"
+
+[8] "entro 60 giorni dalla notifica del debito. Dopo questo termine saranno attivati gli opportuni canali per il recupero del credito da parte dell’Università. Art. 22 Prolungamento Nel corso della mobilità, eventuali prolungamenti sono da considerarsi eccezionali e giustificati da motivi didattici comprovati dall’accettazione della modifica del Learning Agreement da parte dei tutor. La richiesta di prolungamento e il Learning Agreement aggiornato devono pervenire, debitamente firmati, all’Ufficio Relazioni Internazionali – Erasmus un mese prima della scadenza del contratto di mobilità. Previa disponibilità di fondi i prolungamenti potranno essere finanziati con fondi UE e con fondi MUR per coloro che rientrano nella mobilità di cui all’art. 19, qualora le condizioni lo consentano (indicatore ISEE e anno di iscrizione come stabilito dall’allegato 3 del DM 289/2021). Art. 23 Sostegno finanziario agli studenti con bisogni speciali Gli studenti diversamente abili selezionati nell’ambito del programma Erasmus+ potranno ricevere un contributo comunitario specifico, previa richiesta da"
+
+[7] "deve essere formalizzato entro fine luglio per chi parte nel primo semestre ed entro fine novembre per chi parte nel secondo semestre. Al fine di formalizzare il contratto è necessario assicurarsi che su ESSE3 siano correttamente caricati: 1 il documento di riconoscimento in corso di validità, 2 la fotocopia della tessera sanitaria 3 il codice IBAN relativo al conto corrente postale/bancario o alla carta prepagata di cui lo studente è intestatario o cointestatario, assicurandosi che non abbia limiti all’accredito; 4 il Learning Agreement approvato dal tutor interno in ESSE3. Prima della firma del contratto è necessario chiedere il cambio data di partenza sulla base di quanto indicato dall’Università ospitante o sulla base della tipologia di viaggio prescelta e presentare eventuale documentazione aggiuntiva comunicata sulla pagina web International.  7 Se la documentazione prodotta dovesse risultare errata o incompleta il pagamento della borsa potrà essere ritardato. Art. 18 Online Language Support"
+
+[3] "commissione in fase di colloquio e, in ogni caso, potrà essere approvata soltanto una delle due candidature. La corretta compilazione della candidatura sarà indicata nel sistema con un simbolo verde in corrispondenza dello stato di iscrizione al bando. Candidature incomplete non saranno prese in considerazione. Art. 7 Calendario attività Presentazione candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore 15:00 Pubblicazione graduatorie: 24 febbraio 2023 Ricorso alla Commissione Mobilità Internazionale: 27 febbraio 2023 Accettazione mobilità: 25–28 febbraio 2023 Giornata informativa virtuale: 14 marzo 2023. Presentazione del Learning Agreement (1° semestre): dal 27 marzo al 31 luglio 2023 Presentazione del Learning Agreement (2° semestre): dal 1 settembre al 30 novembre"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade?
+Answer:
+
+
+prompt:
+search results:
+
+[3] "online di posizionamento che si terrà il 17 febbraio alle ore 15. I corsi avranno inizio a partire dal 1° marzo 2023 per gli studenti in partenza nel primo semestre. Gli studenti in partenza nel secondo semestre verranno riconvocati successivamente. Art. 6 Candidatura La candidatura, la cui scadenza è fissata per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il ciclo di studi di riferimento 3 istituzioni ospitanti tra i Programme countries e altrettante per i Partner countries. Per tutti i corsi di doppio e triplo titolo la scelta della sede è ovviamente vincolata. Gli studenti che presentano una doppia candidatura (per Programme countries e Partner countries) devono informare la"
+
+[2] "già fruiti nell’ambito dei precedenti Programmi comunitari. La durata della mobilità dipende non solo dal numero di mesi residui per il proprio ciclo di studio ma anche dalla durata della mobilità prevista dall’accordo inter-istituzionale relativo alla destinazione scelta, dunque se l’accordo è per un semestre la mobilità non può essere di un’annualità. Art. 4 Destinatari della mobilità Possono partecipare al presente bando gli studenti dell’Università degli Studi di Salerno che, nell’anno accademico 2022-2023, siano regolarmente iscritti a corsi di studio di I, II e III ciclo e partecipano al bando relativo allo stesso corso di studio per l’anno 2023/24. Per la partecipazione al bando è essenziale il possesso dei requisiti linguistici richiesti dall’Istituzione ospitante. Coloro che intendono laurearsi nella sessione straordinaria a.a. 2022/2023 dovranno aver concluso la mobilità entro il conseguimento della laurea. In caso di mancato conseguimento del titolo di laurea entro la sessione straordinaria a.a.2022/2023, sarà necessario formalizzare"
+
+[1] "con le Istituzioni di Istruzione Superiore dei Paesi Terzi (Partner Countries) su cui allocare non oltre il 20% del budget totale; VISTI gli Accordi di cooperazione internazionale finalizzati al rilascio del doppio titolo; VISTI i fondi comunitari 2022-1-IT02-KA131-HED-000063897 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando di selezione per lo svolgimento di mobilità per studio nell’ambito: - del Programma Erasmus+ 2021-2027, normata dal Regolamento (UE) n. 2021/817 del Parlamento Europeo e del Consiglio del 20 maggio 2021 e dalla Guida al programma Erasmus+ 2021-2027 - degli Accordi finalizzati al rilascio del doppio e triplo titolo La"
+
+[8] "entro 60 giorni dalla notifica del debito. Dopo questo termine saranno attivati gli opportuni canali per il recupero del credito da parte dell’Università. Art. 22 Prolungamento Nel corso della mobilità, eventuali prolungamenti sono da considerarsi eccezionali e giustificati da motivi didattici comprovati dall’accettazione della modifica del Learning Agreement da parte dei tutor. La richiesta di prolungamento e il Learning Agreement aggiornato devono pervenire, debitamente firmati, all’Ufficio Relazioni Internazionali – Erasmus un mese prima della scadenza del contratto di mobilità. Previa disponibilità di fondi i prolungamenti potranno essere finanziati con fondi UE e con fondi MUR per coloro che rientrano nella mobilità di cui all’art. 19, qualora le condizioni lo consentano (indicatore ISEE e anno di iscrizione come stabilito dall’allegato 3 del DM 289/2021). Art. 23 Sostegno finanziario agli studenti con bisogni speciali Gli studenti diversamente abili selezionati nell’ambito del programma Erasmus+ potranno ricevere un contributo comunitario specifico, previa richiesta da"
+
+[3] "commissione in fase di colloquio e, in ogni caso, potrà essere approvata soltanto una delle due candidature. La corretta compilazione della candidatura sarà indicata nel sistema con un simbolo verde in corrispondenza dello stato di iscrizione al bando. Candidature incomplete non saranno prese in considerazione. Art. 7 Calendario attività Presentazione candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore 15:00 Pubblicazione graduatorie: 24 febbraio 2023 Ricorso alla Commissione Mobilità Internazionale: 27 febbraio 2023 Accettazione mobilità: 25–28 febbraio 2023 Giornata informativa virtuale: 14 marzo 2023. Presentazione del Learning Agreement (1° semestre): dal 27 marzo al 31 luglio 2023 Presentazione del Learning Agreement (2° semestre): dal 1 settembre al 30 novembre"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[3] "dal singolo studente vincitore della Mobilità Erasmus+. Nel caso in cui le scadenze di cui sopra siano precedenti alla conclusione del processo di selezione dell'Università di Salerno, la partenza nel 1° semestre dell'anno accademico 2023/2024 NON è garantita e sarà necessario prendere in considerazione un'eventuale partenza nel 2° semestre, indipendentemente dal numero di mesi previsti dall’accordo con l’Università di destinazione. Nell’interesse dello studente è richiesta la consultazione dei siti web delle Istituzioni ospitanti prima di candidarsi. Lo scopo è acquisire informazioni utili al buon esito della mobilità relativamente a offerta formativa, requisiti o certificazioni linguistiche e altro.  3 Al momento della candidatura sarà richiesto di compilare il “modulo di scelta sedi e attività” presente al seguente link: https://forms.gle/JEKbSwywKD7aFhXE7 in cui, per ciascuna delle tre possibili istituzioni ospitanti prescelte, specificare: 3 o 6 attività didattiche (a seconda che il periodo di mobilità per la sede scelta sia di uno o"
+
+[4] "2023 Art. 8 Criteri di selezione La selezione degli studenti è effettuata dalla Commissione Mobilità Internazionale del Consiglio Didattico di appartenenza dello studente. I criteri di selezione sono di seguito riportati: a) Numero di esami sostenuti entro la data di scadenza del bando; b) merito accademico: media ponderata; La media ponderata viene calcolata moltiplicando ogni voto per il numero di crediti dell'esame corrispondente. Tutti i valori così ottenuti sono sommati e alla fine divisi per il numero complessivo di crediti maturati sulle attività con voto. Ai fini della selezione si applicheranno i criteri di arrotondamento: le cifre dopo la virgola minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio"
+
+[8] "entro 60 giorni dalla notifica del debito. Dopo questo termine saranno attivati gli opportuni canali per il recupero del credito da parte dell’Università. Art. 22 Prolungamento Nel corso della mobilità, eventuali prolungamenti sono da considerarsi eccezionali e giustificati da motivi didattici comprovati dall’accettazione della modifica del Learning Agreement da parte dei tutor. La richiesta di prolungamento e il Learning Agreement aggiornato devono pervenire, debitamente firmati, all’Ufficio Relazioni Internazionali – Erasmus un mese prima della scadenza del contratto di mobilità. Previa disponibilità di fondi i prolungamenti potranno essere finanziati con fondi UE e con fondi MUR per coloro che rientrano nella mobilità di cui all’art. 19, qualora le condizioni lo consentano (indicatore ISEE e anno di iscrizione come stabilito dall’allegato 3 del DM 289/2021). Art. 23 Sostegno finanziario agli studenti con bisogni speciali Gli studenti diversamente abili selezionati nell’ambito del programma Erasmus+ potranno ricevere un contributo comunitario specifico, previa richiesta da"
+
+[7] "deve essere formalizzato entro fine luglio per chi parte nel primo semestre ed entro fine novembre per chi parte nel secondo semestre. Al fine di formalizzare il contratto è necessario assicurarsi che su ESSE3 siano correttamente caricati: 1 il documento di riconoscimento in corso di validità, 2 la fotocopia della tessera sanitaria 3 il codice IBAN relativo al conto corrente postale/bancario o alla carta prepagata di cui lo studente è intestatario o cointestatario, assicurandosi che non abbia limiti all’accredito; 4 il Learning Agreement approvato dal tutor interno in ESSE3. Prima della firma del contratto è necessario chiedere il cambio data di partenza sulla base di quanto indicato dall’Università ospitante o sulla base della tipologia di viaggio prescelta e presentare eventuale documentazione aggiuntiva comunicata sulla pagina web International.  7 Se la documentazione prodotta dovesse risultare errata o incompleta il pagamento della borsa potrà essere ritardato. Art. 18 Online Language Support"
+
+[3] "commissione in fase di colloquio e, in ogni caso, potrà essere approvata soltanto una delle due candidature. La corretta compilazione della candidatura sarà indicata nel sistema con un simbolo verde in corrispondenza dello stato di iscrizione al bando. Candidature incomplete non saranno prese in considerazione. Art. 7 Calendario attività Presentazione candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore 15:00 Pubblicazione graduatorie: 24 febbraio 2023 Ricorso alla Commissione Mobilità Internazionale: 27 febbraio 2023 Accettazione mobilità: 25–28 febbraio 2023 Giornata informativa virtuale: 14 marzo 2023. Presentazione del Learning Agreement (1° semestre): dal 27 marzo al 31 luglio 2023 Presentazione del Learning Agreement (2° semestre): dal 1 settembre al 30 novembre"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade?
+Answer:
