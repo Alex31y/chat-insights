@@ -869,3 +869,183 @@ Instructions: Compose a comprehensive reply to the query using the search result
 Query: {question}
 Answer: Query: quando scade?
 Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[3] "per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade il bando?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di"
+
+[3] "momento della candidatura sarà richiesto di compilare il “modulo di scelta sedi e attività” presente al seguente link: https://forms.gle/JEKbSwywKD7aFhXE7 in cui, per ciascuna delle tre possibili istituzioni ospitanti prescelte, specificare: 3 o 6 attività didattiche (a seconda che il periodo di mobilità per la sede scelta sia di uno o"
+
+[3] "candidatura: dal 23 gennaio al 6 febbraio 2023; Scadenza bando: 6 febbraio 2022 – ore 23:59 Colloqui obbligatori: si svolgeranno in modalità virtuale nel periodo 9–15 febbraio 2023 Test online di posizionamento al CLA (riservato ai candidati non in possesso di certificazione linguistica per le sedi scelte): 17 febbraio ore"
+
+[2] "dal singolo studente vincitore della Mobilità Erasmus+. Nel caso in cui le scadenze di cui sopra siano precedenti alla conclusione del processo di selezione dell'Università di Salerno, la partenza nel 1° semestre dell'anno accademico 2023/2024 NON è garantita e sarà necessario prendere in considerazione un'eventuale partenza nel 2° semestre, indipendentemente"
+
+[10] "legge; a tal fine, il trattamento sarà curato da personale dell’Ateneo. Ai sensi degli articoli 15-22 del Regolamento UE, i candidati hanno diritto di ottenere conferma dell’esistenza o meno di un trattamento dei dati personali forniti e, in tal caso, di ottenere l'accesso agli stessi. Hanno altresì diritto di: chiedere"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: quando scade?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio"
+
+[1] "di selezione per lo svolgimento di mobilità per studio nell’ambito: - del Programma Erasmus+ 2021-2027, normata dal Regolamento (UE) n. 2021/817 del Parlamento Europeo e del Consiglio del 20 maggio 2021 e dalla Guida al programma Erasmus+ 2021-2027 - degli Accordi finalizzati al rilascio del doppio e triplo titolo La"
+
+[2] "mobility) per ogni ciclo di studio: I ciclo (laurea triennale) II ciclo (laurea magistrale) III ciclo (dottorato di ricerca) e 24 mesi (12 mesi al massimo per anno accademico) di mobilità nel caso di corsi di laurea magistrale a ciclo unico. Per il presente bando possono presentare domanda anche gli"
+
+[9] "del 4 maggio 2016) l’Università degli Studi di Salerno garantisce che il trattamento dei dati personali sarà improntato a principi di liceità, correttezza e trasparenza nei confronti dell’interessato. In particolare, i dati personali saranno raccolti in maniera adeguata, pertinente e limitata alle finalità connesse e strumentali al presente bando di"
+
+[7] "di supporto individuale aggiuntivo per coprire i giorni di viaggio. Lo studente è tenuto a documentare l’effettivo utilizzo del mezzo di trasporto alternativo attraverso un biglietto nominativo da conservare ed esibire al rientro, insieme alla documentazione richiesta dall’Ufficio Relazioni Internazionali. Nell’ambito del nuovo programma Erasmus+ 2021-27 è inoltre prevista per"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: se oggi è il 20 maggio 2023 sono in tempo per candidarmi?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio in base al voto di laurea: fino a 100/110 = 30 punti; da 101 a 110 = 30 punti più un punto per ogni voto superiore al 100 (es. 104 = 34 punti). Ai laureati con lode saranno attribuiti 42 punti; d) voto di laurea specialistica/magistrale per gli studenti iscritti"
+
+[3] "online di posizionamento che si terrà il 17 febbraio alle ore 15. I corsi avranno inizio a partire dal 1° marzo 2023 per gli studenti in partenza nel primo semestre. Gli studenti in partenza nel secondo semestre verranno riconvocati successivamente. Art. 6 Candidatura La candidatura, la cui scadenza è fissata per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[7] "Programma Erasmus 2021-27 prevede un contributo per il Viaggio Verde (Green travel) per gli studenti che scelgano mezzi di trasporto alternativi all’aereo, quali treno, autobus, nave. Gli studenti in questo caso riceveranno un contributo singolo di € 50 come importo aggiuntivo per il supporto individuale e fino a 4 giorni di supporto individuale aggiuntivo per coprire i giorni di viaggio. Lo studente è tenuto a documentare l’effettivo utilizzo del mezzo di trasporto alternativo attraverso un biglietto nominativo da conservare ed esibire al rientro, insieme alla documentazione richiesta dall’Ufficio Relazioni Internazionali. Nell’ambito del nuovo programma Erasmus+ 2021-27 è inoltre prevista per"
+
+[2] "mobility) per ogni ciclo di studio: I ciclo (laurea triennale) II ciclo (laurea magistrale) III ciclo (dottorato di ricerca) e 24 mesi (12 mesi al massimo per anno accademico) di mobilità nel caso di corsi di laurea magistrale a ciclo unico. Per il presente bando possono presentare domanda anche gli studenti che abbiano già usufruito di una borsa/status Erasmus per studio e/o tirocinio se, per il ciclo di studio per il quale si propongono abbiano ancora a disposizione un tempo sufficiente per seguire i corsi all’estero e sostenere i relativi esami. Ai fini del calcolo sono considerati anche i mesi"
+
+[1] "VISTI i fondi comunitari 2022-1-IT02-KA171_HED-000070591 sulla base di apposita convenzione, stipulata tra l’Ateneo e l’Agenzia Nazionale Erasmus+/Indire; VISTA la disponibilità di fondi assegnati per la mobilità internazionale ex DM1047/2017, allegato 2 DM 989/2019 e allegato 3 DM 289/2021. DECRETA Art. 1 Finalità Per l’anno accademico 2023-2024 è emanato il bando di selezione per lo svolgimento di mobilità per studio nell’ambito: - del Programma Erasmus+ 2021-2027, normata dal Regolamento (UE) n. 2021/817 del Parlamento Europeo e del Consiglio del 20 maggio 2021 e dalla Guida al programma Erasmus+ 2021-2027 - degli Accordi finalizzati al rilascio del doppio e triplo titolo La"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: se oggi è il 20 maggio 2023 sono in tempo per candidarmi?
+Answer:
+
+
+prompt:
+search results:
+
+[4] "a corsi di dottorato. Si procederà ad assegnare un punteggio in base al voto di laurea così come di seguito specificato: fino a 100/110 = 60 punti; da 101 a 110 = 60 punti + un punto per ogni voto superiore al 100 (es. 104 = 64 punti); per i laureati con lode saranno assegnati 72 punti. e) colloquio obbligatorio. Al colloquio è assegnato un punteggio da 0 a 40 punti, di cui 1-5 punti potranno essere attribuiti per certificazioni linguistiche rilevanti ai fini della mobilità. Saranno utilmente collocati in graduatoria i partecipanti che riporteranno un punteggio almeno pari a"
+
+[4] "minori di 50 saranno  4 arrotondate per difetto (es. 26,49 = 26); le cifre dopo la virgola uguali o maggiori di 50 saranno arrotondate per eccesso (es. 26,50 = 27). c) voto di laurea per gli studenti iscritti a corsi di laurea magistrale (Si procederà ad assegnare un punteggio in base al voto di laurea: fino a 100/110 = 30 punti; da 101 a 110 = 30 punti più un punto per ogni voto superiore al 100 (es. 104 = 34 punti). Ai laureati con lode saranno attribuiti 42 punti; d) voto di laurea specialistica/magistrale per gli studenti iscritti"
+
+[7] "di partenza sulla base di quanto indicato dall’Università ospitante o sulla base della tipologia di viaggio prescelta e presentare eventuale documentazione aggiuntiva comunicata sulla pagina web International.  7 Se la documentazione prodotta dovesse risultare errata o incompleta il pagamento della borsa potrà essere ritardato. Art. 18 Online Language Support Gli studenti possono accedere liberamente alla piattaforma OLS: https://academy.europa.eu/local/euacademy/pages/course/community- overview.php?title=learn-the-basics-of-22-languages-with-the-online-language-support utilizzando le proprie credenziali di Ateneo. Non è obbligatoria la frequenza dei corsi di lingua su questa piattaforma ma è fortemente incoraggiata per migliorare il proprio livello di competenza linguistica del paese ospitante, indipendentemente dalla lingua richiesta per la frequenza"
+
+[10] "qualità di fornitore del relativo servizio – con sede in via Magnanelli 6/3 – 40033 Casalecchio di Reno (BO), Telefono: 051/6171411, PEC: cineca@pec.cineca.it. Responsabile della protezione dei dati personali è il Dirigente autorizzato dal Titolare al trattamento in relazione alle proprie funzioni e competenze alla protezione dei dati: e-mail: protezionedati@unisa.it; PEC: protezionedati@pec.unisa.it. Responsabile amministrativo del procedimento, secondo quanto previsto dagli artt. 4 e ss. della L. 7 agosto 1990, n° 241, e successive modificazioni, è il è la Dott.ssa Maria Rizzo, capo dell’Ufficio Relazioni Internazionali – Erasmus dell’Università degli Studi di Salerno – via Giovanni Paolo II, n° 132, 84084"
+
+[3] "ciclo di studi di riferimento 3 istituzioni ospitanti tra i Programme countries e altrettante per i Partner countries. Per tutti i corsi di doppio e triplo titolo la scelta della sede è ovviamente vincolata. Gli studenti che presentano una doppia candidatura (per Programme countries e Partner countries) devono informare la commissione in fase di colloquio e, in ogni caso, potrà essere approvata soltanto una delle due candidature. La corretta compilazione della candidatura sarà indicata nel sistema con un simbolo verde in corrispondenza dello stato di iscrizione al bando. Candidature incomplete non saranno prese in considerazione. Art. 7 Calendario attività Presentazione"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: come viene calcolato il punteggio per la graduatoria
+Answer:
+
+
+prompt:
+search results:
+
+[2] "la partecipazione al bando è essenziale il possesso dei requisiti linguistici richiesti dall’Istituzione ospitante. Coloro che intendono laurearsi nella sessione straordinaria a.a. 2022/2023 dovranno aver concluso la mobilità entro il conseguimento della laurea. In caso di mancato conseguimento del titolo di laurea entro la sessione straordinaria a.a.2022/2023, sarà necessario formalizzare l’iscrizione all’a.a.2023/2024. N.B. È responsabilità di ogni candidato verificare il numero di mensilità Erasmus ancora disponibili per il ciclo di studi di riferimento, ai fini della candidatura al presente bando. In caso di falsa dichiarazione, la mobilità potrà essere annullata prevedendo la restituzione dei contributi erogati. A tal proposito si"
+
+[4] "devono comunque presentare la candidatura entro i termini di scadenza del bando. Per tutti gli altri corsi di studio la mancata partecipazione ai colloqui determinerà l’esclusione dalla procedura concorsuale. Un bonus fino ad un massimo di 30 punti sarà attribuito ai candidati iscritti al IV e al V anno di Ingegneria edile-architettura, di Scienze della formazione primaria nel caso in cui concorrano alla selezione unitamente agli studenti iscritti a corsi di laurea magistrale di II ciclo. Art. 9 Incompatibilità Sono incompatibili con il Programma di mobilità gli studenti che abbiano già beneficiato di mobilità, qualora i mesi residui siano inferiori"
+
+[3] "online di posizionamento che si terrà il 17 febbraio alle ore 15. I corsi avranno inizio a partire dal 1° marzo 2023 per gli studenti in partenza nel primo semestre. Gli studenti in partenza nel secondo semestre verranno riconvocati successivamente. Art. 6 Candidatura La candidatura, la cui scadenza è fissata per il giorno 6 febbraio 2023 – ore 23:59, deve essere compilata online entrando con le proprie credenziali nell’area riservata di ESSE3. Nella sezione “Mobilità internazionale” -> “Bandi di mobilità” lo studente accederà al bando inerente il proprio ambito disciplinare e potrà scegliere, in ordine di preferenza e per il"
+
+[4] "a corsi di dottorato. Si procederà ad assegnare un punteggio in base al voto di laurea così come di seguito specificato: fino a 100/110 = 60 punti; da 101 a 110 = 60 punti + un punto per ogni voto superiore al 100 (es. 104 = 64 punti); per i laureati con lode saranno assegnati 72 punti. e) colloquio obbligatorio. Al colloquio è assegnato un punteggio da 0 a 40 punti, di cui 1-5 punti potranno essere attribuiti per certificazioni linguistiche rilevanti ai fini della mobilità. Saranno utilmente collocati in graduatoria i partecipanti che riporteranno un punteggio almeno pari a"
+
+[2] "già fruiti nell’ambito dei precedenti Programmi comunitari. La durata della mobilità dipende non solo dal numero di mesi residui per il proprio ciclo di studio ma anche dalla durata della mobilità prevista dall’accordo inter-istituzionale relativo alla destinazione scelta, dunque se l’accordo è per un semestre la mobilità non può essere di un’annualità. Art. 4 Destinatari della mobilità Possono partecipare al presente bando gli studenti dell’Università degli Studi di Salerno che, nell’anno accademico 2022-2023, siano regolarmente iscritti a corsi di studio di I, II e III ciclo e partecipano al bando relativo allo stesso corso di studio per l’anno 2023/24. Per"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: se sono fuoricorso posso partecipare al bando?
+Answer:
+
+
+prompt:
+search results:
+
+[38] "With 300,000 employ ees of 120 nationalities in 50 countries, Capgemini is a world leader in consulting, digital transformation, technology and engineering serv ices. It is a leader in supporting companies in their digital and business transformation process by leveraging the power of technology. Location of operations For the purposes of this report we will refer to its presence in Italy, although Capgemini Italia also operates in other countries in cooperation with the other legal entities of the Capgemini Group, or, in specific cases, w here requested by its customers. The company ’s registered office in Italy is Via diTorre"
+
+[38] "Spaccata, 140 –00173 Rome Markets served Capgemini Italia works with client companies in their digital and business transformation process thanks to its profound knowledge of the different market sectors and lev eraging on an extensiv e mastery of the most innov ativ e technologies and methods with clouds, data, artificial intelligence, connectivity, software, digital engineering and platforms. Geographic locations where products and services are offered Capgemini is present in Italy with 20 phy sical offices located in Milano, Torino, Orbassano, Ivrea, Padova, Pisa, Firenze, Roma, Bologna, Modena, Piacenza, Trieste, Marcon, La Spezia, Genov a, Napoli, Pomigliano, Salerno, Bari and Palermo."
+
+[38] "as part of the Capgemini Group, thus standardizing processes and procedures. Capgemini in Italy represents a solid economic-financial business also at a local lev el,with an increase both in rev enues and in stable margins ov er time. –The data are the sum of the 2021 financial statements of: Capgemini Italia S.p.A. (which includes Interactive Thinking) – Altran Italia S.p.A. – Frog Design S.r.l. – ECSI Corresponding to the commercial brands:Capgemini, Capgemini Engineering, Frog, Doing. VALUE Total number of employees (at 31 December 2021) 8,312 Sales 736,5 millions € Total Capitalization 415,2 millions € Debts 261,9 millions € Equity 153,2"
+
+[34] "solid, risk-based approach. Different standards and methods are applicable for the Automotiv e, ICS, Healthcare, Railway and more traditional industries such as Telecom Industriale, as each segment has its own unique threats and threat actors. Capgemini’s IT security experts are able to strengthen the security lev el of people, processes and technologies through specific offer lines and solutions. Cybersecurity portfolio overview  - 34- 6.METHODOLOGICAL NOTE 6.1 Capgemini ESG Report –The Italian companies belonging to the Capgemini Group as at 31/12/2021 are: Capgemini Italia S.p.A. – Altran Italia S.p.A. – ECSI Consulting S.r.l. – Frog Design S.r.l. The publication of"
+
+[34] "the Italian consolidated financial statements is not env isaged, because being consolidated at Group level, and as the Capgemini Group is listed in France, we do not hav e this obligation. How ever, all bodies are consolidated in the financial statements of the Capgemini Group, listed on the Paris Stock Exchange. This report has been prepared in compliance with the GRI Standards: Core option and in compliance with the requirements of the Decree on the use of reporting standards issued by authoritative supranational, international or national bodies (Art. 3 p. 3). The Group has set up an internal working group,"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: which are the Italian companies belonging to the Capgemini Group
+Answer:
+
+
+prompt:
+search results:
+
+[34] "ith annual frequency. 2021 Conversion Factors SOURCE CONVERSION UNIT 2021 SOURCE DIESEL / GA S OIL (NON- T RAVEL) kg/litre 2.75857 DEFRA/BEIS NA T URAL GAS (GROSS CV /HHV ) kg/kW h 0.18316 DEFRA/BEIS NA T URAL GAS (NET CV/LHV) kg/kW h 0.20297 DEFRA/BEIS NA T URAL GAS kg/cubic meter 2.02135 DEFRA/BEIS DIESEL (V EHICLE) kg/litre 2.70553 DEFRA/BEIS PURCHA SED ELECT RICITY - LOCA TION BASED kg/kW h 0.2861 International Energy Agency (IEA) 2021 v1.2 PURCHA SED ELECT RICITY - MA RKET BASED kg/kW h 0.45857 Residual Mix used for the following sites: IT002OF01 Rome, IT029OF01 Napoli. Supplier provided emission"
+
+[34] "factor. Used for all sites (except above 2) using non- renewable electricity . Assumed to be 0, if not provided by the supplier. Used for all sites using renewable electricity. PURCHA SED ELECT RICITY - MA RKET BASED kg/kW h 0.466 PURCHA SED ELECT RICITY - MA RKET BASED kg/kW h 0 In the calculation of greenhouse gas emissions, CO2 equivalent emissions were considered. eCO2 emissions are calculated by multiplying fuel and energy consumption by the emission factors taken from the most authoritative and updatedtechnical literature. The emission factors used to conv ert consumption into tons of CO2 equivalent are"
+
+[18] "intelligible data into sustainable transformation, modeling env ironmental impacts, providing ESG criteria and enabling the technological sustainability of artificial intelligence. • Analy ze the climate, sustainability expectations and weak signals expressed on social media regarding services, products, the distribution network and brand experience. • Manage end-to-end climate and sustainability data in financial services (know-your-customer rating, exposure to corporate portfolio risk, etc.). In order to measure and reduce the greenhouse gas emissions of their activities, we have developed a carbon impact calculator and related method to provide a transparent assessment. The carbon calculator is being integrated with our sales and implementation"
+
+[36] "or compulsory labor 30 GRI 414: Social assessment of suppliers (2016) 414-1 Percentage of new suppliers who hav e been evaluated through the use of social criteria 30 GRI Indicators Disclosure Pa ge number  - 36- Persone e diversità GRI 103: Management of the topic (2016) 103-1 Explanation of the material topic and its perimeter 21 103-2 Approach to the management of the topic 21 103-3 Ev aluation of the management approach to the topic 21 GRI 405: Diversity and equal opportunities (2016) 405-1 Div ersity of governance bodies and employees 21, 43 405-2 Ratio between basic salary and"
+
+[35] "local communities, impact assessment and development programs 15 Responsible sourcing GRI 103: Management of the topic (2016) 103-1 Explanation of the material topic and its perimeter 30 103-2 Approach to the management of the topic 30 103-3 Ev aluation of the management approach to the topic 30 GRI 308: Environmental assessment of suppliers (2016) 308-1 New suppliers that have been evaluated using environmental criteria 30 GRI 408: Child labor (2016) 408-1 Activ ities and suppliers at significant risk of child labor incidents 30 GRI 409: Forced or compulsory labor (2016) 409-1 Activ ities and suppliers at significant risk of forced"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: list the Conversion Factors sources
+Answer:
+
+
+prompt:
+search results:
+
+[44] "23,53%  - 44- About Capgemini Capgemini is a global leader in partnering with companies to transform and manage their business by harnessing the power of technology. The Group is guided everyday by its purpose of unleashing human energy through technology for an inclusive and sustainable future. It is a responsible and diverse organization of over 340,000 team members in more than 50 countries. With its strong 55-year heritage and deep industry expertise, Capgemini is trusted by its clients to address the entire breadth of their business needs, from strategy and design to operations, fueled by the fast evolving and"
+
+[18] "platforms to include env ironmental costs and savings in ev ery stage of project monitoring and to make it easy to checkthe data easily. In addition to customers, Capgemini also cares about communities, because as a business we want to inspire people to make a difference through sustainable actions. Our approach to mobilizing people focuses on three areas: education, engagement and empowerment: • We hav e developed training guides and modules to improv e the collectiv e knowledge of the sustainability of our communities. Furthermore, w e carry out engagement campaigns to encourage people to make sustainable choices. • We"
+
+[6] "Card and scope of the report 7.2 Performance Indicators 9 10 11 12 12 13 1 4 15 16 18 19 19 21 24 25 25 28 31 3 4 34 35 37 3 8 38 39  - 6- 3. CAPGEMINI ESG PLEDGE: LEVERAGING TECHNOLOGY FOR THE BENEFIT OF ALL 3.1 Eight ESG priorities for a better future "Unleashing human energy through technology for an inclusive and sustainable future". This is Capgemini’s purpose, and to create a future that liv es up to all its promises w e believ e that technology can help us if – most importantly"
+
+[5] "objectives for sharingour progress with our eight priorities 3.3 Commitment to achieving 11 Sustainable Development Goals 3.4 Increase the collective impact by participating in public initiatives 4. CAPGEMINI’S INTEGRATED ESG APPROACH 4.1 Empower local initiatives through alignedleadership:our governance and our ESG organization 4.2 Lev eraging the dynamicsof our stakeholders through constant dialogue 4.3 Focus on ESG material impacts 4.4 Integrating ESG in our corporate strategy 4.5 Managing significant ESG risks 5. CAPGEMINI’S EIGHT ESG PRIORITIES 5.1 Env ironment: accelerating the transition to Net Zero 5.1.1 Act on climate change by being carbon neutral by 2025 and becoming a Net zero"
+
+[10] "technologies and financial resources. Capgemini is committed to making a contribution to achiev ing of 11 of the 17 SDGs, asw e believ e they best reflect our ability tointegrate ESG challenges into our business. These goals also reflect our commitment to the ten principles of the United Nations Global Compact, w hich Capgemini first signed in 2004.  - 9- CAPGEMINI’S INTEGRATED ESG APPROACH  - 10- 4. CAPGEMINI’S INTEGRATED ESG APPROACH 4.1 Empower local initiatives through aligned leadership: our governance and our ESG organization In Italy , CSR Governance is divided in relation to the three pillars of"
+
+Instructions: Compose a comprehensive reply to the query using the search results given. If the search results mention multiple subjects with the same name, create separate answers for eachOnly include information found in the results and don't add any additional information. Make sure the answer is correct and don't output false content. If the text does not relate to the query, simply state 'Non è stata trovata una risposta alla tua domanda nel testo'.Ignore outlier search results which has nothing to do with the question. Only answer what is asked. The answer should be short and concise. Answer step-by-step. 
+
+Query: {question}
+Answer: Query: what are the capgemini's objectives
+Answer:

@@ -14,7 +14,7 @@ import torch
 https://www.sbert.net/
 """
 #più piccolo è il chunk meno token vengono utilizzati nel fare la domanda
-chunk_size = 150
+chunk_size = 100
 model = SentenceTransformer('sentence-transformers/multi-qa-MiniLM-L6-cos-v1')
 
 """Metodi per la manipolazione del testo; conversione da pdf a text"""
@@ -135,7 +135,7 @@ def generate_text(openAI_key, prompt, engine="text-davinci-003"):
     completions = openai.Completion.create(
         engine=engine,
         prompt=prompt,
-        max_tokens=200,     #incide sulla lunghezza della risposta output, quindi sul prezzo della chiamata
+        max_tokens=500,     #incide sulla lunghezza della risposta output, quindi sul prezzo della chiamata
         n=1,
         stop=None,
         temperature=0.7,    #più è basso meno si spende, forse
@@ -222,7 +222,7 @@ with gr.Blocks(theme='freddyaboulton/dracula_revamped') as demo:
             openAI_key = gr.Textbox(label='Enter your OpenAI API key here')
             url = gr.Textbox(label='Enter PDF URL here')
             gr.Markdown("<center><h4>OR<h4></center>")
-            file = gr.File(label='Upload your PDF', file_types=['.pdf'], file_count="multiple")
+            file = gr.File(label='Upload your PDF', file_types=['.pdf'])
             question = gr.Textbox(label='Enter your question here')
             btn = gr.Button(value='Submit')
             btn.style(full_width=True)
