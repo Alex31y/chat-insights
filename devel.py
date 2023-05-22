@@ -163,13 +163,9 @@ def generate_answer(question, openAI_key):
               "answer should be short and concise. Answer step-by-step. \n\nQuery: {question}\nAnswer: "
 
     prompt += f"Query: {question}\nAnswer:"
-    answer = generate_text(openAI_key, prompt, "text-davinci-003")
 
-    file_object = open('docs\domande.txt', 'a')
-    file_object.write('\n\n\nprompt:\n')
-    file_object.write(prompt)
-    # Close the file
-    file_object.close()
+    answer = prompt
+    # answer = generate_text(openAI_key, prompt, "text-davinci-003")
     return answer
 
 #1.
@@ -198,7 +194,7 @@ file_object.write('\n')
 file_object.write("domanda: \n")
 file_object.write(domanda)
 
-answ = question_answer("", "docs\cost.pdf", domanda, key)
+answ = question_answer("", "docs\hands on ml.pdf", domanda, key)
 
 file_object.write("risposta: \n")
 file_object.write(answ)

@@ -10,18 +10,17 @@ from sklearn.neighbors import NearestNeighbors
 from sentence_transformers import SentenceTransformer, util
 import torch
 import shutil
-from langchain.document_loaders import PyPDFLoader
-import tensorflow_hub as hub
 
+"""Importo il modello per l'embedding del testo
+https://www.sbert.net/
 """
-più piccolo è il chunk meno token vengono utilizzati nel fare la domanda || configurazione per singolo file: chunk_size = 150 n_chunks = 5 tokens = 750
-"""
+#più piccolo è il chunk meno token vengono utilizzati nel fare la domanda
+#configurazione per singolo file: chunk_size = 150 n_chunks = 5 tokens = 750
 chunk_size = 50
 n_chunks = 15
 #model = SentenceTransformer('sentence-transformers/multi-qa-MiniLM-L6-cos-v1')
 model = SentenceTransformer("bert model")
-from langchain.embeddings import CohereEmbeddings
-#model = CohereEmbeddings(model="embed-english-light-v2.0", cohere_api_key="my-api-key")
+
 """Metodi per la manipolazione del testo; conversione da pdf a text"""
 
 def download_pdf(url, output_path):
@@ -32,25 +31,38 @@ def preprocess(text):
     text = re.sub('\s+', ' ', text)
     return text
 
-def pdf_to_text(path):
-    text = []
+def pdf_to_text(path, start_page=1, end_page=None):
     if isinstance(path, list):
         total_pages = 0
+        text_list = []
         for file in path:
-            loader = PyPDFLoader(file.name)
-            pages = loader.load_and_split()
-            for page in pages:
-                page = page.page_content
-                page = preprocess(page)
-                text.append(page)
+            doc = fitz.open(file)
+            total_pages = total_pages + doc.page_count
+            file_pages = doc.page_count
+            #print("pagine nel file: ")
+            #print(file_pages)
+            for i in range(start_page - 1, file_pages):
+                #print(i)
+                text = doc.load_page(i).get_text("text")
+                text = preprocess(text)
+                text_list.append(text)
+            doc.close()
     else:
-        loader = PyPDFLoader(path.name)
-        pages = loader.load_and_split()
-        for page in pages:
-            page = page.page_content
-            page = preprocess(page)
-            text.append(page)
-    return text
+        doc = fitz.open(path)
+        total_pages = doc.page_count
+
+        if end_page is None:
+            end_page = total_pages
+
+        text_list = []
+
+        for i in range(start_page - 1, end_page):
+            text = doc.load_page(i).get_text("text")
+            text = preprocess(text)
+            text_list.append(text)
+
+        doc.close()
+    return text_list
 
 def text_to_chunks(texts, word_length=chunk_size, start_page=1):
     text_toks = [t.split(' ') for t in texts]
@@ -130,7 +142,7 @@ def load_recommender(path, flagUrl):
         pdf_file = os.path.basename(path.name)
         embeddings_file = f"docs\{pdf_file}_{start_page}.npy"
 
-    texts = pdf_to_text(path)
+    texts = pdf_to_text(path, start_page=start_page)
     chunks = text_to_chunks(texts, start_page=start_page)
     # fitto il reccomender
     # se ho già il file fitto direttamente caricandolo
@@ -139,7 +151,7 @@ def load_recommender(path, flagUrl):
         return "Embeddings loaded from file"
     recommender.fit(chunks)
     np.save(embeddings_file, recommender.corpus_embeddings)
-    print("sto salvando roba")
+    print("ho salvato roba")
     return 'Corpus Loaded.'
 
 def generate_text(openAI_key, prompt, engine="text-davinci-003"):
@@ -198,8 +210,8 @@ def generate_answer(question, openAI_key):
     file_object.close()
     """
 
-    #answer = generate_text(openAI_key, prompt, "text-davinci-003")
-    answer = prompt
+    answer = generate_text(openAI_key, prompt, "text-davinci-003")
+    #answer = prompt
     return answer
 
 #1.
