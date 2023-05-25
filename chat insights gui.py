@@ -1,24 +1,20 @@
 import tkinter as tk
-import re
+from tkinter import ttk
 from tkinter import filedialog
 from langchain.document_loaders import PyPDFLoader
-import urllib.request
-import fitz
 import re
 import numpy as np
-from sentence_transformers import SentenceTransformer
 import openai
-import gradio as gr
 import os
-from sklearn.neighbors import NearestNeighbors
 from sentence_transformers import SentenceTransformer, util
 import torch
-import shutil
+import threading
+from PIL import ImageTk, Image
 
-chunk_size = 50
+chunk_size = 600
 n_chunks = 15
 model = SentenceTransformer("bert model")
-
+embeddings_file = f"docs\embeddings.npz"
 
 def preprocess(text):
     text = text.replace('\n', ' ')
@@ -37,21 +33,19 @@ def to_text(file_paths):
                     text += page
     return text
 
-def text_to_chunks(texts, word_length=chunk_size, start_page=1):
-    text_toks = [t.split(' ') for t in texts]
-    page_nums = []
+def text_to_chunks(text, overlap_percentage = 0.05):
     chunks = []
+    overlap_size = int(chunk_size * overlap_percentage)
 
-    for idx, words in enumerate(text_toks):
-        for i in range(0, len(words), word_length):
-            chunk = words[i:i + word_length]
-            if (i + word_length) > len(words) and (len(chunk) < word_length) and (
-                    len(text_toks) != (idx + 1)):
-                text_toks[idx + 1] = chunk + text_toks[idx + 1]
-                continue
-            chunk = ' '.join(chunk).strip()
-            chunk = f'[{idx + start_page}]' + ' ' + '"' + chunk + '"'
-            chunks.append(chunk)
+    start = 0
+    end = chunk_size
+
+    while start < len(text):
+        chunk = text[start:end]
+        chunks.append(chunk)
+        start += chunk_size - overlap_size
+        end = start + chunk_size
+
     return chunks
 
 class SemanticSearch:
@@ -67,6 +61,12 @@ class SemanticSearch:
     def fit(self, data, batch=1000, n_neighbors=5):
         self.data = data  # salvo i chunks del pdf in data
         self.corpus_embeddings = self.get_text_embedding(data, batch=batch)  # qui creo gli embedding
+        self.fitted = True
+
+    def fit2(self, embeddings_file):
+        stored = np.load(embeddings_file)
+        self.corpus_embeddings = stored["embeddings"]  # qui creo gli embedding
+        self.dim_corpus = stored["dim_corpus"]
         self.fitted = True
 
     # restituisco i top n chunks più simili alla domanda
@@ -86,11 +86,23 @@ class SemanticSearch:
 
         for i in range(0, len(texts), batch):
             text_batch = texts[i:(i + batch)]
-
             emb_batch = self.encode(text_batch)  # chiamo il modello
             embeddings.append(emb_batch)
         embeddings = np.vstack(embeddings)  #a function provided by NumPy that takes a sequence of arrays and stacks them vertically to form a new array.
         return embeddings
+
+def generate_text(openAI_key, prompt, engine="text-davinci-003"):
+    openai.api_key = openAI_key
+    completions = openai.Completion.create(
+        engine=engine,
+        prompt=prompt,
+        max_tokens=500,     #incide sulla lunghezza della risposta output, quindi sul prezzo della chiamata
+        n=1,
+        stop=None,
+        temperature=0.7,    #più è basso meno si spende, forse
+    )
+    message = completions.choices[0].text
+    return message
 
 def generate_answer(question, openAI_key):
     # genero i chunks
@@ -120,28 +132,64 @@ def generate_answer(question, openAI_key):
 
     #answer = generate_text(openAI_key, prompt, "text-davinci-003")
     answer = prompt
+    print(prompt)
     return answer
 
+def cleanup():
+
+    if os.path.isfile(embeddings_file):
+        os.remove(embeddings_file)
+
 def run():
-    query = query_entry.get()
-    api_key = key_entry.get()
-    global file_paths
-    text = to_text(file_paths)
-    chunks = text_to_chunks(text)
+    while not stop_event.is_set():
+        progress_bar.pack()
+        progress_bar.start()
+        query = query_entry.get()
+        api_key = key_entry.get()
+        global file_paths
+        if os.path.isfile(embeddings_file):
+            recommender.fit2(embeddings_file)
+            print("Embeddings loaded from file")
+        else:
+            text = to_text(file_paths)
+            chunks = text_to_chunks(text)
+            recommender.fit(chunks)
+            np.savez(embeddings_file, embeddings=recommender.corpus_embeddings, dim_corpus=recommender.dim_corpus)
+        progress_bar.stop()
+        progress_bar.pack_forget()
+        answer = generate_answer(query, api_key)
+        text_area.pack()
+        text_area.delete(1.0, tk.END)
+        text_area.insert(tk.END, answer)
+        stop_event.set()  # Set the stop event to stop the thread
+        break
 
-    recommender.fit(chunks)
-    answer = generate_answer(query, api_key)
+def start_thread():
+    global thread, stop_event
+    if thread and thread.is_alive():
+        print("già in esecuzione")
+        return  # Do nothing if a thread is already running
+    stop_event.clear()  # Reset the stop event
 
-    text_area.delete(1.0, tk.END)
-    text_area.insert(tk.END, answer)
+    # Start the new thread
+    stop_event = threading.Event()
+    thread = threading.Thread(target=run)
+    thread.start()
 
 def input_file():
+    cleanup()
     global file_paths
     file_paths = filedialog.askopenfilenames(filetypes=[("PDF Files", "*.pdf")])
+
+def update_sizes(event=None):
+    window.update_idletasks()  # Update the window to get the current size
+    text_area.configure(width=(window.winfo_width() // 10), height=(window.winfo_height() // 25))
 
 recommender = SemanticSearch()
 # Create the main window
 window = tk.Tk()
+window.title("Chat Insights")
+window.geometry("600x400")
 
 file_paths = None
 select_button = tk.Button(window, text="Select PDFs", command=input_file)
@@ -149,20 +197,29 @@ select_button.pack()
 
 key_label = tk.Label(window, text="API Key:")
 key_label.pack()
-key_entry = tk.Entry(window)
+key_entry = tk.Entry(window, width=60)
 key_entry.pack()
-query_label = tk.Label(window, text="Question Query:")
+query_label = tk.Label(window, text="Fai la tua domanda:")
 query_label.pack()
-query_entry = tk.Entry(window)
+query_entry = tk.Entry(window, width=80)
 query_entry.pack()
 
 # Create button to retrieve the query and API key
-submit_button = tk.Button(window, text="Submit", command=run)
+submit_button = tk.Button(window, text="Submit", command=start_thread)
 submit_button.pack()
+stop_event = threading.Event()
+thread = None
+progress_bar = ttk.Progressbar(window, mode='indeterminate')
+progress_bar.pack_forget()
 
 # Create a text area to display the extracted text
 text_area = tk.Text(window)
-text_area.pack()
+progress_bar.pack_forget()
+
+# Make the input boxes and text area adjust dynamically
+window.bind('<Configure>', update_sizes)
+query_entry.pack_propagate(False)
+text_area.pack_propagate(False)
 
 # Start the main event loop
 window.mainloop()

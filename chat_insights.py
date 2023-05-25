@@ -20,6 +20,7 @@ chunk_size = 50
 n_chunks = 15
 #model = SentenceTransformer('sentence-transformers/multi-qa-MiniLM-L6-cos-v1')
 model = SentenceTransformer("bert model")
+embeddings_file = ""
 
 """Metodi per la manipolazione del testo; conversione da pdf a text"""
 
@@ -95,13 +96,14 @@ class SemanticSearch:
     # applico il nearest neighbors sull'embedding del pdf
     def fit(self, data, batch=1000, n_neighbors=5):
         self.data = data  # salvo i chunks del pdf in data
+        self.dim_corpus = len(data)
         self.corpus_embeddings = self.get_text_embedding(data, batch=batch)  # qui creo gli embedding
         self.fitted = True
 
-    def fit2(self, data, embeddings_file, n_neighbors=5):
-        self.data = data  # salvo i chunks del pdf in data
-        self.dim_corpus = len(data)
-        self.corpus_embeddings = np.load(embeddings_file)  # qui creo gli embedding
+    def fit2(self, embeddings_file):
+        stored = np.load(embeddings_file)
+        self.corpus_embeddings = stored["embeddings"]  # qui creo gli embedding
+        self.dim_corpus = stored["dim_corpus"]
         self.fitted = True
 
     # restituisco i top n chunks più simili alla domanda
@@ -133,24 +135,27 @@ class SemanticSearch:
 def load_recommender(path, flagUrl):
     start_page = 1
     global recommender
+    global embeddings_file
     if len(path) > 1:
-        embeddings_file = f"docs\multiFileEmbeddings.npy"
+        embeddings_file = f"docs\multiFileEmbeddings.npz"
     elif(flagUrl):
         pdf_file = os.path.basename(path)
     else:
         path = path[0]
         pdf_file = os.path.basename(path.name)
-        embeddings_file = f"docs\{pdf_file}_{start_page}.npy"
+        embeddings_file = f"docs\{pdf_file}_{start_page}.npz"
+
+    if os.path.isfile(embeddings_file):
+        recommender.fit2(embeddings_file)
+        return "Embeddings loaded from file"
 
     texts = pdf_to_text(path, start_page=start_page)
     chunks = text_to_chunks(texts, start_page=start_page)
     # fitto il reccomender
     # se ho già il file fitto direttamente caricandolo
-    if os.path.isfile(embeddings_file):
-        recommender.fit2(chunks, embeddings_file)
-        return "Embeddings loaded from file"
+
     recommender.fit(chunks)
-    np.save(embeddings_file, recommender.corpus_embeddings)
+    np.savez(embeddings_file, embeddings=recommender.corpus_embeddings, dim_corpus=recommender.dim_corpus)
     print("ho salvato roba")
     return 'Corpus Loaded.'
 
@@ -210,8 +215,8 @@ def generate_answer(question, openAI_key):
     file_object.close()
     """
 
-    answer = generate_text(openAI_key, prompt, "text-davinci-003")
-    #answer = prompt
+    #answer = generate_text(openAI_key, prompt, "text-davinci-003")
+    answer = prompt
     return answer
 
 #1.
@@ -230,6 +235,7 @@ def question_answer(url, file, question, openAI_key):
     return generate_answer(question, openAI_key)
 
 def cleanup():
+    global embeddings_file
     embeddings_file = f"docs\multiFileEmbeddings.npy"
     if os.path.isfile(embeddings_file):
         os.remove(embeddings_file)
