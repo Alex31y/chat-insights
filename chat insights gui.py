@@ -4,6 +4,7 @@ from tkinter import filedialog
 from langchain.document_loaders import PyPDFLoader
 from langchain.document_loaders import Docx2txtLoader
 from langchain.document_loaders import UnstructuredFileLoader
+from langchain.utilities import WikipediaAPIWrapper
 import re
 import numpy as np
 import openai
@@ -24,9 +25,15 @@ def preprocess(text):
     text = re.sub('\s+', ' ', text)
     return text
 
-def to_text(file_paths):
-    if file_paths:
-        text = ""
+def to_text(file_paths, url):
+    text = ""
+    if url:
+        wikipedia = WikipediaAPIWrapper()
+        pages = wikipedia.run(file_paths)
+        #print(pages)
+        page = preprocess(pages)
+        text += page
+    elif file_paths:
         for file in file_paths:
             print(file)
             file_extension = os.path.splitext(file)[1]
@@ -49,6 +56,8 @@ def to_text(file_paths):
                 page = page.page_content
                 page = preprocess(page)
                 text += page
+    else:
+        text = "input non riuscito"
     return text
 
 def text_to_chunks(text, overlap_percentage = 0.05):
@@ -148,8 +157,8 @@ def generate_answer(question, openAI_key):
     file_object.close()
     """
 
-    #answer = generate_text(openAI_key, prompt, "text-davinci-003")
-    answer = prompt
+    answer = generate_text(openAI_key, prompt, "text-davinci-003")
+    #answer = prompt
     print(prompt)
     return answer
 
@@ -164,15 +173,24 @@ def run():
         progress_bar.start()
         query = query_entry.get()
         api_key = key_entry.get()
-        global file_paths
-        if os.path.isfile(embeddings_file):
-            recommender.fit2(embeddings_file)
-            print("Embeddings loaded from file")
-        else:
-            text = to_text(file_paths)
+        url = url_entry.get()
+
+        if(url):
+            print("url true")
+            text = to_text(url, True)
             chunks = text_to_chunks(text)
             recommender.fit(chunks)
-            np.savez(embeddings_file, embeddings=recommender.corpus_embeddings, dim_corpus=recommender.dim_corpus)
+        else:
+            print("url false")
+            global file_paths
+            if os.path.isfile(embeddings_file):
+                recommender.fit2(embeddings_file)
+                print("Embeddings loaded from file")
+            else:
+                text = to_text(file_paths, False)
+                chunks = text_to_chunks(text)
+                recommender.fit(chunks)
+                np.savez(embeddings_file, embeddings=recommender.corpus_embeddings, dim_corpus=recommender.dim_corpus)
         progress_bar.stop()
         progress_bar.pack_forget()
         answer = generate_answer(query, api_key)
@@ -211,9 +229,12 @@ window.title("Chat Insights")
 window.geometry("600x400")
 
 file_paths = None
-select_button = tk.Button(window, text="Select PDFs", command=input_file)
+select_button = tk.Button(window, text="Select Files", command=input_file)
 select_button.pack()
-
+url_label = tk.Label(window, text="oppure inserisci un URL:")
+url_label.pack()
+url_entry = tk.Entry(window, width=60)
+url_entry.pack()
 key_label = tk.Label(window, text="API Key:")
 key_label.pack()
 key_entry = tk.Entry(window, width=60)
