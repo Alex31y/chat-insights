@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
 from langchain.document_loaders import PyPDFLoader
+from langchain.document_loaders import Docx2txtLoader
+from langchain.document_loaders import UnstructuredFileLoader
 import re
 import numpy as np
 import openai
@@ -9,11 +11,12 @@ import os
 from sentence_transformers import SentenceTransformer, util
 import torch
 import threading
-from PIL import ImageTk, Image
 
-chunk_size = 600
+
+chunk_size = 500
 n_chunks = 15
-model = SentenceTransformer("bert model")
+model = SentenceTransformer('all-MiniLM-L6-v2')
+#model = SentenceTransformer("bert model")
 embeddings_file = f"docs\embeddings.npz"
 
 def preprocess(text):
@@ -25,12 +28,27 @@ def to_text(file_paths):
     if file_paths:
         text = ""
         for file in file_paths:
+            print(file)
+            file_extension = os.path.splitext(file)[1]
+            # Check if the file extension is ".txt" or ".word"
+            if file_extension == ".txt":
+                print("File extension is .txt")
+                loader = UnstructuredFileLoader(file)
+            elif file_extension == ".docx":
+                print("File extension is .word")
+                loader = Docx2txtLoader(file)
+            elif file_extension == ".pdf":
+                print("File extension is .pdf")
                 loader = PyPDFLoader(file)
-                pages = loader.load_and_split()
-                for page in pages:
-                    page = page.page_content
-                    page = preprocess(page)
-                    text += page
+            else:
+                print("File extension not supported")
+                return
+
+            pages = loader.load_and_split()
+            for page in pages:
+                page = page.page_content
+                page = preprocess(page)
+                text += page
     return text
 
 def text_to_chunks(text, overlap_percentage = 0.05):
@@ -179,7 +197,8 @@ def start_thread():
 def input_file():
     cleanup()
     global file_paths
-    file_paths = filedialog.askopenfilenames(filetypes=[("PDF Files", "*.pdf")])
+    filetypes = [("PDF Files", "*.pdf"), ("Text Files", "*.txt"), ("Word Files", "*.docx")]
+    file_paths = filedialog.askopenfilenames()
 
 def update_sizes(event=None):
     window.update_idletasks()  # Update the window to get the current size
