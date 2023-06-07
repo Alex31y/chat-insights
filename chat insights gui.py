@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
 from langchain.document_loaders import PyPDFLoader
-from langchain.document_loaders import Docx2txtLoader
+#from langchain.document_loaders import Docx2txtLoader
 from langchain.document_loaders import UnstructuredFileLoader
 from langchain.utilities import WikipediaAPIWrapper
 import re
@@ -18,6 +18,8 @@ chunk_size = 500
 n_chunks = 15
 model = SentenceTransformer('all-MiniLM-L6-v2')
 #model = SentenceTransformer("bert model")
+#model = SentenceTransformer('sentence-transformers/multi-qa-mpnet-base-dot-v1')
+#model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
 embeddings_file = f"docs\embeddings.npz"
 
 def preprocess(text):
@@ -41,9 +43,6 @@ def to_text(file_paths, url):
             if file_extension == ".txt":
                 print("File extension is .txt")
                 loader = UnstructuredFileLoader(file)
-            elif file_extension == ".docx":
-                print("File extension is .word")
-                loader = Docx2txtLoader(file)
             elif file_extension == ".pdf":
                 print("File extension is .pdf")
                 loader = PyPDFLoader(file)
@@ -100,8 +99,9 @@ class SemanticSearch:
     def __call__(self, text): # text è la domanda input dell'utente
         top_k = min(n_chunks, self.dim_corpus)
         domanda_embeddings = self.encode([text]) # embedding applicato alla domanda
-        cos_scores = util.cos_sim(domanda_embeddings, self.corpus_embeddings)[0]
-        top_results = torch.topk(cos_scores, k=top_k)
+        #scores = util.cos_sim(domanda_embeddings, self.corpus_embeddings)[0]
+        scores = util.dot_score(domanda_embeddings, self.corpus_embeddings)[0]
+        top_results = torch.topk(scores, k=top_k)
         return [self.data[i] for i in top_results[1]]
 
     # questa è la classe che fa l'embedding sul contenuto del pdf
@@ -157,8 +157,8 @@ def generate_answer(question, openAI_key):
     file_object.close()
     """
 
-    answer = generate_text(openAI_key, prompt, "text-davinci-003")
-    #answer = prompt
+    #answer = generate_text(openAI_key, prompt, "text-davinci-003")
+    answer = prompt
     print(prompt)
     return answer
 
