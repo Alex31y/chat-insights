@@ -6,3 +6,9 @@
 *.pdf
 *.npy
 *.txt
+*.parquet
+*.pkl
+*.pkl
+*.parquet
+*.parquet
+*.pkl

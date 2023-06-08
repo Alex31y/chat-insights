@@ -187,6 +187,17 @@ def ask_question():
     text_area.delete(1.0, tk.END)
     text_area.insert(tk.END, answer)
 
+def clean_collection():
+    file_list = get_file_list('files.pkl')
+    for file in file_list:
+        collection.delete(where={"file": file})
+        print(f"rimossi chunk di: {file}")
+    if os.path.exists("files.pkl"):
+        # Delete the file
+        os.remove("files.pkl")
+        print("rimosso il picke")
+    create_scrollable_list(window, "")
+
 def load_file():
     while not stop_event.is_set():
         progress_bar.pack()
@@ -270,8 +281,10 @@ file_paths = None
 select_button = tk.Button(window, text="Select Files", command=input_file)
 select_button.pack()
 # Create button to retrieve the query and API key
-submit_button = tk.Button(window, text="Upload", command=start_thread)
-submit_button.pack()
+upload_button = tk.Button(window, text="Upload", command=start_thread)
+upload_button.pack()
+delete_button = tk.Button(window, text="Flush", command=clean_collection)
+delete_button.pack()
 stop_event = threading.Event()
 thread = None
 progress_bar = ttk.Progressbar(window, mode='indeterminate')
